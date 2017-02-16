@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Baron - LoL Discord Bot</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+</head>
+<body>
+    <div id="firstDiv">
+        <div class="topBar">
+            <a>BARON</a>
+            <div class="topBar-GetBaron">GET BARON</div>
+            <div class="topBar-Commands">COMMANDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="topBar-About">ABOUT</div>
+        </div>
+        <div class="firstDiv-Center">
+            <div class="baronImage">
+                <img src="imgs/baron.png">
+            </div>
+            <p class="quote">Hey, I’m Baron, a League Of Legends Discord Bot!</p>
+            <div class="stats">
+                <div class="statsServers">
+                    <div>Servers
+                        <br><span class="statsServersNum">0</span></div>
+                </div>
+                <div class="statsUsers">
+                    <div>Users
+                        <br><span class="statsUsersNum">0</span></div>
+                </div>
+                <div class="statsChannels">
+                    <div>Channels
+                        <br><span class="statsChannelsNum">0</span></div>
+                </div>
+            </div>
+        </div>
+        <a href="https://discord.gg/twCbaFM"><img href="https://discord.gg/twCbaFM" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" class="discordServerImg"></a>
+    </div>
+    <div id="about">
+        <div class="aboutWrapper">
+            <p class="aboutTitle">ABOUT</p>
+            <p class="aboutContent">Baron is a League of Legends Discord bot. It tries to offer the most accurate information, in the shortest time possible. The bot's objective is to eliminate the effort to open third party websites to get crucial information. It was developed by Phyxsius after he was done procrastinating.</p>
+        </div>
+    </div>
+    <div id="commands">
+        <div class="tabela">
+            <p class="commandsTitle">COMMANDS</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Commands</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!baron profile</td>
+                        <td data-label="Description">Summarized profile of a summoner.</td>
+                        <td data-label="Usage"><a href="command_examples/profile.png" data-lightbox="profile">!baron profile [region] [summoner]</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron live</td>
+                        <td data-label="Description">Live match details and statistics.</td>
+                        <td data-label="Usage"><a href="command_examples/live.png" data-lightbox="live">!baron live [region] [summoner]</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron mastery</td>
+                        <td data-label="Description">Top champions by mastery. Also shows if the player already earned a chest, and the champion last played date.</td>
+                        <td data-label="Usage"><a href="command_examples/mastery.png" data-lightbox="mastery">!baron mastery [region] [summmoner]</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron champion</td>
+                        <td data-label="Description">Everything you need to know about a champion, winrate, banrate, pickrate, skill order, runes, mastery, build, etc.</td>
+                        <td data-label="Usage"><a href="command_examples/champion.png" data-lightbox="champion">!baron champion [champion] [role] [frequent/highest%](optional)</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron pro</td>
+                        <td data-label="Description">Pro player's statistics, champions, next-game and some other information.</td>
+                        <td data-label="Usage"><a href="command_examples/pro.png" data-lightbox="pro">!baron pro [pro-player-name]</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron topplayers</td>
+                        <td data-label="Description">Player's with most mastery points on specified champion.</td>
+                        <td data-label="Usage"><a href="command_examples/topplayers.png" data-lightbox="topplayers">!baron topplayers [champion]</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron lastplayed</td>
+                        <td data-label="Description">Shows when a player last played a specified champion.</td>
+                        <td data-label="Usage"><a href="command_examples/lastplayed.png" data-lightbox="lastplayed">!baron lastplayed [champion] [region] [summoner]</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron lcs notify/unnotify</td>
+                        <td data-label="Description">Notifies you when an LCS match goes live!</td>
+                        <td data-label="Usage"><a href="command_examples/notify.png" data-lightbox="notify">!baron lcs notify/unnotify [eulcs/nalcs/lck/all]</a></td>
+                    </tr>
+
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron lcs upcoming</td>
+                        <td data-label="Description">Upcoming matches on LCS.</td>
+                        <td data-label="Usage"><a href="command_examples/upcoming.png" data-lightbox="upcoming">!baron lcs upcoming [eulcs/nalcs/lck](optional)</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron lcs recent</td>
+                        <td data-label="Description">Recent matches on LCS.</td>
+                        <td data-label="Usage"><a href="command_examples/recent.png" data-lightbox="recent">!baron lcs recent [eulcs/nalcs/lck](optional)</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron bans</td>
+                        <td data-label="Description">Top banned champions.</td>
+                        <td data-label="Usage"><a href="command_examples/bans.gif" data-lightbox="bans">!baron bans</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron counters</td>
+                        <td data-label="Description">Best counters for a specified champion and role.</td>
+                        <td data-label="Usage"><a href="command_examples/counters.png" data-lightbox="counters">!baron counters [champion] [role]</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron best</td>
+                        <td data-label="Description">Best champions for specified role.</td>
+                        <td data-label="Usage"><a href="command_examples/best.png" data-lightbox="best">!baron best [role]</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron info</td>
+                        <td data-label="Description">Detailed statistics about a champion.</td>
+                        <td data-label="Usage"><a href="command_examples/info.png" data-lightbox="info">!baron info [champion]</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron tips</td>
+                        <td data-label="Description">Tips for a specified champion.</td>
+                        <td data-label="Usage"><a href="command_examples/tips.png" data-lightbox="tips">!baron tips [champion]</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron serverupdates</td>
+                        <td data-label="Description">Logs server warnings in realtime.</td>
+                        <td data-label="Usage"><a href="command_examples/serverupdates.png" data-lightbox="serverupdates">!baron serverupdates [add/remove] [region]</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron rotation</td>
+                        <td data-label="Description">This week free rotation.</td>
+                        <td data-label="Usage"><a href="command_examples/rotation.png" data-lightbox="rotation">!baron rotation</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron status</td>
+                        <td data-label="Description">Shows LoL server status.</td>
+                        <td data-label="Usage"><a href="command_examples/status.png" data-lightbox="status">!baron status [region](optional)</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron help</td>
+                        <td data-label="Description">If you ever need help.</td>
+                        <td data-label="Usage"><a href="command_examples/help.png" data-lightbox="help">!baron help</a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td scope="row" data-label="Command" class="pinkBg">!baron commands</td>
+                        <td data-label="Description">It directs to this list.</td>
+                        <td data-label="Usage"><a href="command_examples/commands.png" data-lightbox="commands">!baron commands</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Command" class="pinkBg">!baron</td>
+                        <td data-label="Description">Bot information.</td>
+                        <td data-label="Usage"><a href="command_examples/baron.png" data-lightbox="baron">!baron</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="quoteHelp">If you want to contact the developer, submit a bug, suggest a feature, or simply just talk about how Teemo should be deleted from the game, just private message the bot, <a href="https://discord.gg/twCbaFM" class="serverA">join the bot's server</a>, or add Phyxsius#1238.</p>
+        </div>
+    </div>
+    <footer>
+    	<p>All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Also, if you want a custom Discord bot for your server, I'm your guy.&nbsp;&nbsp;Shot me an e-mail at phyxsius21@hotmail.com or contact me through Discord.<br>Draw made by <a href="http://p0nca.deviantart.com/">P0NCA</a>.</p>
+        <hr>
+        <p>Baron isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. <br>League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+</body>
+
+</html>
