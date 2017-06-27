@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $('head').append('<link href="https://u.nya.is/mzrdtf.png" rel="shortcut icon" type="image/x-icon" />');
-    
+    $('head').append('<link href="https://u.nya.is/vtqsyg.png" rel="shortcut icon" type="image/x-icon" />');
+
     $.getJSON("https://ptb.discordapp.com/api/guilds/264370940706553857/widget.json", function(result) {
 
         for(i=0; i < result.channels.length; i++){
@@ -13,9 +13,9 @@ $(document).ready(function() {
             }
         }
 
-        $('.statsServersNum').text(serverNum);
-        $('.statsUsersNum').text(usersNum);
-        $('.statsChannelsNum').text(channelsNum);
+        $('.statsServersNum').text(numberWithCommas(serverNum));
+        $('.statsUsersNum').text(numberWithCommas(usersNum));
+        $('.statsChannelsNum').text(numberWithCommas(channelsNum));
 
         console.log("[x] Data success. ")
     });
@@ -36,3 +36,7 @@ $(document).ready(function() {
         }, 2000);
     });
 });
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}

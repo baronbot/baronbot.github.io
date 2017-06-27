@@ -23,6 +23,11 @@
     src: url(fonts/light.otf);
 }
 
+@font-face {
+    font-family: Molot;
+    src: url(fonts/Molot.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +44,9 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    background-image: url(imgs/bgpattern.png);
+    background: #c0392b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #5752E2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #5752E2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .topBar {
@@ -87,7 +94,7 @@ body {
 }
 
 .topBar-GetBaron {
-    background-color: #d024fb;
+    background-color: #df18a6;
     cursor: pointer;
     cursor: hand;
     -webkit-transition: background-color 100ms linear;
@@ -98,7 +105,7 @@ body {
 }
 
 .topBar-GetBaron:hover {
-    background-color: #b308de;
+    background-color: #D6249A;
     -webkit-transition: background-color 100ms linear;
     -moz-transition: background-color 100ms linear;
     -o-transition: background-color 100ms linear;
@@ -111,8 +118,8 @@ body {
 }
 
 .baronImage {
-    height: 277px;
-    width: 166px;
+    height: 55%;
+    width: 55%;
     margin: 0 auto;
     margin-top: 104px;
 }
@@ -133,10 +140,10 @@ body {
 .stats {
     height: 95px;
     width: 485px;
-    background-color: #36393e;
+    background-color: #36393E;
     margin: 0 auto;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 
 .stats > div {
@@ -144,7 +151,7 @@ body {
     width: 33.3%;
     float: left;
     text-align: center;
-    font-family: FontBold;
+    font-family: FontSemiBold;
     font-size: 28px;
     color: white;
 }
@@ -156,6 +163,13 @@ body {
     top: 50%;
     transform: translateY(-50%);
     margin-top: -5px;
+    color: white;
+}
+
+.statsServersNum,
+.statsUsersNum,
+.statsChannelsNum {
+    color: white;
 }
 
 .discordServerImg {
@@ -175,8 +189,11 @@ body {
 
 #commands {
     width: 100%;
-    background-image: url(imgs/bgpattern2.png);
     background-color: #36393e;
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5A51DF, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5A51DF, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #commands > .tabela {
@@ -184,13 +201,14 @@ body {
     margin: 0 auto;
 }
 
-.tabela > .commandsTitle {
+.tabela > .commandsTitle, .contactsTitle {
     text-align: center;
     font-family: FontBold;
     font-size: 28px;
     color: white;
     padding-top: 50px;
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 table {
@@ -201,11 +219,13 @@ table {
     table-layout: fixed;
     font-family: FontRegular;
     margin-top: 20px;
+    border: 2px #CC2B9D solid;
 }
 
 table th {
-    background-color: #d024fb;
+    background-color: #CC2B9D;
     font-size: 15px;
+    color: white;
 }
 
 table tr {
@@ -227,7 +247,7 @@ table th {
 }
 
 a:link {
-    color: #d024fb;
+    color: #CC2B9D;
     text-decoration: none;
 }
 
@@ -245,9 +265,10 @@ a:link {
 }
 
 #about {
-    background-color: #d024fb;
+    background: #DF18A6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b24592, #8C45AF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b24592, #8C45AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
-    background-image: url(imgs/bgpattern.png);
     text-align: center;
     font-family: FontRegular;
     font-size: 20px;
@@ -266,6 +287,7 @@ a:link {
     color: white;
     padding-top: 50px;
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 .aboutContent {
@@ -295,7 +317,7 @@ footer > p > br {
 }
 
 footer > p > a {
-    color: #99EFFF;
+    color: #CC2B9D;
 }
 
 hr {
@@ -306,12 +328,23 @@ hr {
 }
 
 .serverA {
-    color: #D02AFA;
+    color: #36393E;
+}
+
+#contacts {
+    background: #DF18A6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b24592, #8C45AF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b24592, #8C45AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    text-align: center;
+    font-family: FontRegular;
+    font-size: 20px;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {
     .pinkBg {
-        background-color: rgba(208, 36, 251, 1);
+        background-color: #CC2B9D;
         color: white;
     }
     table {
@@ -353,12 +386,10 @@ hr {
         border-bottom: 0;
     }
     .baronImage {
-        height: 237px;
-        width: 126px;
-        padding-top: 30px;
-    }
-    .baronImage > img {
-        margin-top: -80px;
+        height: 85%;
+        width: 85%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     .quote {
         font-size: 18px;
@@ -396,5 +427,11 @@ hr {
     }
     footer > p {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 633px) {
+    .topBar-About, .topBar-Commands {
+        display: none;
     }
 }
