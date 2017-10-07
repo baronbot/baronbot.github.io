@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('head').append('<link href="https://u.nya.is/vtqsyg.png" rel="shortcut icon" type="image/x-icon" />');
+    $('head').append('<link href="https://i.imgur.com/i5999xB.png" rel="shortcut icon" type="image/x-icon" />');
 
     $.getJSON("https://ptb.discordapp.com/api/guilds/264370940706553857/widget.json", function(result) {
 
