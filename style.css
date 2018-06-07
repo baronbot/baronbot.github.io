@@ -156,6 +156,10 @@ body {
     color: white;
 }
 
+.num {
+    font-family: FontRegular;
+}
+
 .statsServers > div,
 .statsUsers > div,
 .statsChannels > div {
@@ -328,7 +332,11 @@ hr {
 }
 
 .serverA {
-    color: #36393E;
+    color: #F3719D;
+}
+
+.serverA:visited, .serverA:hover, .serverA:active {
+    color: #F3719D;
 }
 
 #contacts {
