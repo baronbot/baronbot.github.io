@@ -61,6 +61,17 @@ $(document).ready(function () {
         }
     });
 
+    $(".dropbtn").on("click", function () {
+        if($(".dropdown-content").hasClass("open")){
+            $(".dropdown-content").hide();
+            $(".dropdown-content").removeClass("open");
+        } else {
+            ps.update();
+            $(".dropdown-content").show();
+            $(".dropdown-content").addClass("open");
+        }
+    });
+
     $(".dropdown-content a").on("click", function () {
         let img = $(this).find("img").attr("src");
         let lang = $(this).text();
