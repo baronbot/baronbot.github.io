@@ -33,8 +33,7 @@
     padding: 0;
 }
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -44,45 +43,55 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    background: #c0392b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8e44ad, #5752E2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8e44ad, #5752E2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #c0392b;
+    /* Fallback for old browsers. */
+    background: -webkit-linear-gradient(to right, #8e44ad, #5752E2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #5752E2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .topBar {
     width: 100%;
     height: 66px;
     background-color: #36393e;
+    position: fixed;
+    z-index: 5;
 }
 
-.topBar-GetBaron,
-.topBar-About,
-.topBar-Commands {
+.topBarImg {
+    display: none;
+    height: 50%;
+    margin-left: 15px;
+    margin-top: 17px;
+    float: left;
+}
+
+.topBar-GetBaron, .topBar-About, .topBar-Commands {
     float: right;
     line-height: 61px;
 }
 
-.topBar > a {
+.topBar>a {
     font-family: FontBold;
     font-size: 28px;
     color: white;
     margin-left: 35px;
     line-height: 60px;
+    margin-right: 25px;
 }
 
-.topBar-GetBaron,
-.topBar-About,
-.topBar-Commands {
+.topBar-GetBaron, .topBar-About, .topBar-Commands {
     height: 100%;
-    width: 155px;
+    padding-left: 22px;
+    padding-right: 22px;
     font-family: FontSemiBold;
     color: white;
     font-size: 20px;
     text-align: center;
 }
 
-.topBar-Commands:hover,
-.topBar-About:hover {
+.topBar-Commands:hover, .topBar-About:hover {
     background-color: #2b2c2d;
     cursor: pointer;
     cursor: hand;
@@ -124,7 +133,7 @@ body {
     margin-top: 104px;
 }
 
-.baronImage > img {
+.baronImage>img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -146,7 +155,7 @@ body {
     border-radius: 2px;
 }
 
-.stats > div {
+.stats>div {
     height: 100%;
     width: 33.3%;
     float: left;
@@ -160,9 +169,7 @@ body {
     font-family: FontRegular;
 }
 
-.statsServers > div,
-.statsUsers > div,
-.statsChannels > div {
+.statsServers>div, .statsUsers>div, .statsChannels>div {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -170,9 +177,7 @@ body {
     color: white;
 }
 
-.statsServersNum,
-.statsUsersNum,
-.statsChannelsNum {
+.statsServersNum, .statsUsersNum, .statsChannelsNum {
     color: white;
 }
 
@@ -194,18 +199,20 @@ body {
 #commands {
     width: 100%;
     background-color: #36393e;
-    background: #7474BF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5A51DF, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5A51DF, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #7474BF;
+    /* Fallback for old browsers. */
+    background: -webkit-linear-gradient(to right, #5A51DF, #7474BF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5A51DF, #7474BF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#commands > .tabela {
+#commands>.tabela {
     width: 75%;
     margin: 0 auto;
 }
 
-.tabela > .commandsTitle, .contactsTitle {
+.tabela>.commandsTitle, .contactsTitle {
     text-align: center;
     font-family: FontBold;
     font-size: 28px;
@@ -238,8 +245,7 @@ table tr {
     padding: .35em;
 }
 
-table th,
-table td {
+table th, table td {
     padding: .625em;
     text-align: center;
 }
@@ -251,7 +257,7 @@ table th {
 }
 
 a:link {
-    color: #CC2B9D;
+    color: #D6249A;
     text-decoration: none;
 }
 
@@ -269,9 +275,12 @@ a:link {
 }
 
 #about {
-    background: #DF18A6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b24592, #8C45AF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b24592, #8C45AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #DF18A6;
+    /* Fallback for old browsers. */
+    background: -webkit-linear-gradient(to right, #b24592, #8C45AF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b24592, #8C45AF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     text-align: center;
     font-family: FontRegular;
@@ -307,20 +316,20 @@ footer {
     font-weight: bold;
 }
 
-footer > p {
+footer>p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-footer > p > span {
+footer>p>span {
     color: red;
 }
 
-footer > p > br {
+footer>p>br {
     line-height: 170%;
 }
 
-footer > p > a {
+footer>p>a {
     color: #CC2B9D;
 }
 
@@ -332,17 +341,21 @@ hr {
 }
 
 .serverA {
-    color: #F3719D;
+    color: #551A8B !important;
+    font-weight: bold;
 }
 
 .serverA:visited, .serverA:hover, .serverA:active {
-    color: #F3719D;
+    color: #551A8B;
 }
 
 #contacts {
-    background: #DF18A6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b24592, #8C45AF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b24592, #8C45AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #DF18A6;
+    /* Fallback for old browsers. */
+    background: -webkit-linear-gradient(to right, #b24592, #8C45AF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b24592, #8C45AF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     text-align: center;
     font-family: FontRegular;
@@ -350,17 +363,101 @@ hr {
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+.dropbtn {
+    color: white;
+    font-family: FontRegular;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.dropbtn-txt {
+    margin-top: -3px;
+}
+
+.dropbtn-arrow {
+    font-size: 10px;
+    margin-top: 1px;
+}
+
+.dropbtn>img {
+    margin-top: 1px;
+    width: auto;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 160px;
+    ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    height: 200px;
+    width: 175px;
+    overflow: auto;
+    margin-left: -15px;
+}
+
+.dropdown-content a {
+    color: #36393e;
+    font-family: FontRegular;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    margin-left: 15px;
+    background-color: #f5f5f6;
+    cursor: pointer;
+}
+
+.dropdown-content a img {
+    height: 16px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.dropdown-content a:hover {
+    background-color: #ececec;
+}
+
+.lang-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.lang-name {
+    vertical-align: bottom;
+}
+
+.ps>.ps__rail-x, .ps>.ps__rail-y {
+    opacity: 0.6 !important;
+}
+
+@media screen and (max-width: 660px) {
     .pinkBg {
         background-color: #CC2B9D;
         color: white;
     }
+
     table {
         border: 0;
     }
+
     table caption {
         font-size: 1.3em;
     }
+    
     table thead {
         border: none;
         clip: rect(0 0 0 0);
@@ -371,6 +468,7 @@ hr {
         position: absolute;
         width: 1px;
     }
+
     table tr {
         display: block;
         margin-bottom: .625em;
@@ -378,27 +476,32 @@ hr {
         padding: 0;
         border-bottom: 3px solid #ddd;
     }
+
     table td {
         border-bottom: 1px solid #ddd;
         display: block;
         font-size: .8em;
         text-align: right;
     }
+
     table td:before {
         content: attr(data-label);
         float: left;
         font-weight: bold;
         text-transform: uppercase;
     }
+
     table td:last-child {
         border-bottom: 0;
     }
+
     .baronImage {
         height: 85%;
         width: 85%;
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
     .quote {
         font-size: 18px;
         font-family: FontBold;
@@ -406,6 +509,7 @@ hr {
         margin-top: -100px;
         margin-bottom: 20px;
     }
+
     .stats {
         height: 95px;
         width: 300px;
@@ -413,7 +517,8 @@ hr {
         margin: 0 auto;
         border-radius: 10px;
     }
-    .stats > div {
+
+    .stats>div {
         height: 100%;
         width: 33.3%;
         float: left;
@@ -422,9 +527,11 @@ hr {
         font-size: 20px;
         color: white;
     }
+
     .discordServerImg {
         display: none;
     }
+
     .footer {
         background-color: #1A1A1A;
         text-align: center;
@@ -433,13 +540,44 @@ hr {
         font-size: 5px;
         font-weight: bold;
     }
-    footer > p {
+
+    footer>p {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 633px) {
+@media screen and (max-width: 733px) {
     .topBar-About, .topBar-Commands {
         display: none;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .topBar-Title {
+        display: none;
+    }
+
+    .topBarImg {
+        display: flex;
+    }
+    
+    .statsTitle {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .topBar-GetBaron {
+        font-size: 95%;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+    .topBar-GetBaron {
+        font-size: 85%;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }

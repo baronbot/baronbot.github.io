@@ -1,0 +1,92 @@
+{   
+    "topbar": {
+        "about": "OVER BARON",
+        "commands": "COMMANDS",
+        "getBaron": "KRIJG BARON"
+    },
+    "stats": {
+        "servers": "Servers",
+        "users": "Gebruikers",
+        "channels": "Kanelen"
+    },
+    "about": {
+        "title": "OVER",
+        "description": "Baron is een League of Legends Discord bot. Het probeert the meest accurate informatie te geven, in de kortst mogenlijke tijd. Het is de doel van de bot om de moeite te besparen om derde website te moeten openen om cruciale informatie te krijgen."
+    },
+    "commands": {
+        "title": "COMMANDS",
+        "commands": "COMMANDS",
+        "description": "BESCHRIJVING",
+        "usage": "GEBRUIK"
+    },
+    "contact": {
+        "title": "CONTACT",
+        "imprint": "IMPRINT",
+        "description": "Als je de ontwikkelaar wilt contacteren, storingen melden, suggesties wilt doen, of gewoon wil praten over waarom teemo de beste champion in de game is, <a href='https://discord.gg/twCbaFM' class='serverA' style='color: #551A8B;'> neem deel aan de server</a> of voeg Phyxsius#1238 toe."
+    },
+    "footer": {
+        "text": "Alle rechten voorbehouden. Website en bot zijn gemaakt met <span>❤</span> door Phyxsius.<br>Baron wordt mede mogelijk gemaakt door <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar gemaakt bij <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+    },
+    "commandsDesc": {
+        "baron": "Algemene informatie en statistieken.",
+        "ability": "Gedetaileerde informatie over een ability.",
+        "add-remove": "Toevoegen/Verwijderen van je LoL summoner account op je account.",
+        "bans": "Meest gebande champions.",
+        "best": "Beste champion voor een specifieke rol.",
+        "champion": "Alles wat je moet weten over een champion: Builds, runes, spells, enz.",
+        "counters": "Beste counters voor een specifieke champion.",
+        "disable-enable": "Blokkeer/Deblokkeer Baron op een kanaal.",
+        "help": "Als je hulp nodig hebt.",
+        "info": "Champion informatie.",
+        "invite": "Geeft de link om de bot uit te nodigen voor je server.",
+        "item": "Gedetaileerde van een item.",
+        "language": "Zie de mogelijke talen en laat je de taal veranderen voor de bot.",
+        "lastplayed": "Laat zie wanneer iemand een specifieke champion voor het laatst gespeeld heeft.",
+        "live": "Live potje informatie: Ranks, winrate, enz.",
+        "mastery": "Lijst van champions met de meeste mastery van een summoner.",
+        "patchnotes": "De laatste patch notities.",
+        "profile": "Summoner profiel met ranks, champions, laatste potje, enz.",
+        "rotation": "Free week rotatie",
+        "rune": "Details voor een specifieke rune.",
+        "sales": "Huidige champion en skin aanbiedingen.",
+        "serverupdates": "Waarschuwingen voor server updates.",
+        "skins": "Lijst van champions skins of laat specifieke informatie zien over een bepaalde skin samen met de prijs.",
+        "status": "Server status.",
+        "streams": "Geeft een lijst van streams voor de gegeven champion.",
+        "synergy": "Beste champion dat de specifieke champion mee kan samen werkt.",
+        "tips": "Tips voor het spelen met en tegen een champion.",
+        "topplayers": "Spelers met de meeste mastery punten wereldwijd voor een specifieke champion.",
+        "ultimatebravery": "Willekeurige summoners, build, skill volgorde, enz."
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [champion] [p/q/w/e/r/ult]",
+        "add-remove": "!baron add [regio] [summoner] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [role]",
+        "champion": "!b champion [champion] [role] [highest/frequent](optional)",
+        "counters": "!b counters [champion] [role]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [champion]",
+        "invite": "!b invite",
+        "item": "!b item [name]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [name]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [champion/skin name]",
+        "status": "!b status",
+        "streams": "!b streams [champion]",
+        "synergy": "!b synergy [champion] [role]",
+        "tips": "!b tips [champion]",
+        "topplayers": "!b topplayers [champion]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}

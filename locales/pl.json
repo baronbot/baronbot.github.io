@@ -1,0 +1,92 @@
+{   
+    "topbar": {
+        "about": "INFORMACJE",
+        "commands": "KOMENDY",
+        "getBaron": "DODAJ BARON"
+    },
+    "stats": {
+        "servers": "Serwery",
+        "users": "Użytkownicy",
+        "channels": "Kanały"
+    },
+    "about": {
+        "title": "INFORMACJE",
+        "description": "Baron jest to Discordowy bot do League of Legends. Stara się oferować najdokładniejsze informacje w jak najkrótszym czasie. Celem bota jest wyeliminowanie wysiłku otwierania stron internetowych stron trzecich w celu uzyskania kluczowych informacji."
+    },
+    "commands": {
+        "title": "KOMENDY",
+        "commands": "KOMENDY",
+        "description": "OPIS",
+        "usage": "UŻYCIE"
+    },
+    "contact": {
+        "title": "KONTAKT",
+        "imprint": "IMPRINT",
+        "description": "Jeśli chcesz skontaktować się z programistą, zgłosić błąd, zaproponować funkcję, lub po prostu porozmawiać o tym, w jaki sposób Teemo powinien być usunięty z gry, po prostu dołącz do <a href='https://discord.gg/twCbaFM' class='serverA'>serwera bota</a>, lub dodaj Phyxsius#1238."
+    },
+    "footer": {
+        "text": "Wszelkie prawa zastrzeżone. Strona i bot zostały utworzone z <span>❤</span> przez Phyxsius.<br>Baron jest powiązany z <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar stworzony przez <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+    },
+    "commandsDesc": {
+        "baron": "Ogólne informacje i statystki.",
+        "ability": "Szczegółowe informacje o umiejętności.",
+        "add-remove": "Dodaje/Usuwa przywoływacza do Twojego konta.",
+        "bans": "Najbardziej banowani bohaterowie.",
+        "best": "Najlepsi bohaterowi na daną role.",
+        "champion": "Wszystko co potrzebujesz wiedzieć o bohaterze: build, runy, czary, etc.",
+        "counters": "Najlepsze kontry na daną postać.",
+        "disable-enable": "Wyłącza/Włącza Barona na kanale.",
+        "help": "Jeśli potrzebujesz pomocy.",
+        "info": "Informacje o bohaterze.",
+        "invite": "Zdobądź zaproszenie, aby dodać bota do Twojego serwera.",
+        "item": "Szczegółowe informacje o przedmiocie.",
+        "language": "Sprawdź dostępne języki bota.",
+        "lastplayed": "Sprawdź kiedy gracz grał ostatnio daną postacią.",
+        "live": "Informacje o grze na żywo: dywizje, współczynnik zwycięstw, itd.",
+        "mastery": "Lista bohaterów z największą ilość punktów maestrii przywoływacza.",
+        "patchnotes": "Ostatni opis patcha.",
+        "profile": "Profil przywoływacza z dywizjami, bohaterami, ostatnią grą itd.",
+        "rotation": "Darmowa tygodniowa rotacja.",
+        "rune": "Szczegółe informacje o runie.",
+        "sales": "Aktualna wyprzedaż skórek i bohaterów.",
+        "serverupdates": "Ostrzeżenia przy aktualizacji serwera.",
+        "skins": "Lista skórek bohaterów. Wyświetla także szczegółowe informacje o określonej skórce wraz z cenami.",
+        "status": "Status serwera.",
+        "streams": "Lista aktualnych transmisji dla podanego bohatera.",
+        "synergy": "Najlepsi bohaterowie, którzy synchronizują się z określonymi bohaterami.",
+        "tips": "Wskazówki na gre z oraz przeciw danemu bohaterowi.",
+        "topplayers": "Gracze z największą ilością punktów maestrii na całym świecie na danej postaci.",
+        "ultimatebravery": "Losowe czary przywoływacza, build, umiejętności, itd."
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [bohater] [p/q/w/e/r/ult]",
+        "add-remove": "!baron add [region] [gracz] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [rola]",
+        "champion": "!b champion [bohater] [rola] [highest/frequent](optional)",
+        "counters": "!b counters [bohater] [rola]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [bohater]",
+        "invite": "!b invite",
+        "item": "!b item [nazwa]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [nazwa]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [bohater/nazwa skórki]",
+        "status": "!b status",
+        "streams": "!b streams [bohater]",
+        "synergy": "!b synergy [bohater] [rola]",
+        "tips": "!b tips [bohater]",
+        "topplayers": "!b topplayers [bohater]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}

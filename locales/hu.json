@@ -1,0 +1,92 @@
+{   
+    "topbar": {
+        "about": "A BOTRÓL",
+        "commands": "PARANCSOK",
+        "getBaron": "SZEREZD BE"
+    },
+    "stats": {
+        "servers": "Szerverek",
+        "users": "Felhasználók",
+        "channels": "Csatornák"
+    },
+    "about": {
+        "title": "A BOTRÓL",
+        "description": "A Baron egy League of Legends Discord bot. Megpróbálja a lehető legrövidebb időn belül megadni a legpontosabb információkat. A bot célja, hogy kulcsfontosságú információkat szerezz, harmadik fél webhelyeinek megnyitásának erőfeszítése nélkül."
+    },
+    "commands": {
+        "title": "PARANCSOK",
+        "commands": "PARANCSOK",
+        "description": "LEÍRÁS",
+        "usage": "HASZNÁLAT"
+    },
+    "contact": {
+        "title": "KAPCSOLAT",
+        "imprint": "IMPRINT",
+        "description": "Ha szeretnél kapcsolatba lépni a fejlesztővel, jelenteni egy hibát, javasolni egy funkciót, vagy csak beszélgetni arról, hogy hogyan kéne Teemot kitörölni a játékból, <a href='https://discord.gg/twCbaFM' class='serverA' style='color: #551A8B;'>csatlakozz a bot szerverére</a> vagy vedd fel a fejlesztőt Phyxsius#1238."
+    },
+    "footer": {
+        "text": "Minden jog fenntartva. A weboldal és a bot Phyxsius által készült. <span>❤</span> <br>A Baron bot a <a href='https://dojomadness.com/'>Dojo Madness</a> segítségével jött létre.<br>Az avatart készítette: <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+    },
+    "commandsDesc": {
+        "baron": "Általános információk és statisztikák.",
+        "ability": "Részletes leírás egy képességről!",
+        "add-remove": "A LoL idéződ összekötése a fiókóddal./Eltávolítja az összekapcsolt idézőnevet.",
+        "bans": "A legtöbbször kitiltott hősök.",
+        "best": "A legjobb hős egy meghatározott szerephez.",
+        "champion": "Minden, amit tudnod kell egy hősről: Tárgyak, rúnák, varázslatok, stb.",
+        "counters": "A legjobb választások egy bizonyos hős ellen.",
+        "disable-enable": "A Baron tiltása/engedélyezése a csatornában.",
+        "help": "Ha bármikor segítségre lenned szükséged.",
+        "info": "Hős információ.",
+        "invite": "Szerezd meg a bot meghívó linkjét, hogy hozzáadd a szerveredhez.",
+        "item": "Részletes információ egy tárgyról.",
+        "language": "Nézd meg a rendelkezésre álló nyelveket és változtasd meg a bot nyelvét.",
+        "lastplayed": "Megmutatja, hogy a játékos mikor játszott a megadott hőssel.",
+        "live": "Információ a jelenleg futó játékról: Divízió, nyerési arány, stb.",
+        "mastery": "Lista a hősökről a hősismereti pontok alapján.",
+        "patchnotes": "Legújabb frissítés.",
+        "profile": "Idéző profil divíziókkal, hősökkel, legutóbbi játékkal, stb.",
+        "rotation": "Heti ingyenes hősök.",
+        "rune": "Részletek egy megadott rúnáról.",
+        "sales": "Jelenlegi akciós hősök és kinézetek.",
+        "serverupdates": "A szerverfrissítésekre vonatkozó figyelmeztetések.",
+        "skins": "Lista a hősök kinézeteiről vagy részletes információ egy bizonyos kinézetről.",
+        "status": "Szerver állapot.",
+        "streams": "Kilistázza a jelenlegi élő adásokat a megadott hőshöz.",
+        "synergy": "A hősök, akik legjobban tudnak együttműködni a megadott hőssel.",
+        "tips": "Tippek a hősökhöz és ellenük.",
+        "topplayers": "Játékosok a legtöbb hősismereti ponttal az egész világon a megadott hőshöz.",
+        "ultimatebravery": "Véletlenszerű hősök, tárgyak, varázslatok, stb."
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [hős] [p/q/w/e/r/ult]",
+        "add-remove": "!baron add [régió] [idéző] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [szerep]",
+        "champion": "!b champion [hős] [szerep] [highest/frequent](optional)",
+        "counters": "!b counters [hős] [szerep]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [hős]",
+        "invite": "!b invite",
+        "item": "!b item [név]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [név]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [hős/kinézet neve]",
+        "status": "!b status",
+        "streams": "!b streams [hõs]",
+        "synergy": "!b synergy [hõs] [szerep]",
+        "tips": "!b tips [hős]",
+        "topplayers": "!b topplayers [hős]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}

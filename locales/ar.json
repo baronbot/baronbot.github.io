@@ -1,0 +1,97 @@
+{
+    "topbar": {
+        "about": "عن البوت",
+        "commands": "الأوامر",
+        "getBaron": "الحصول على بارون"
+    },
+    "stats": {
+        "servers": "الخوادم",
+        "users": "المستخدمين",
+        "channels": "القنوات"
+    },
+    "about": {
+        "title": "عن البوت",
+        "description": ".البارون هو لول ديسكورد بوت. يحاول تقديم معلومات أكثر دقة ، في أقصر وقت ممكن. هدف البوت هو القضاء على الجهد لفتح مواقع أطراف ثالثة للحصول على معلومات مهمة"
+    },
+    "commands": {
+        "title": "الأوامر",
+        "commands": "الأوامر",
+        "description": "الوصف",
+        "usage": "الاستعمال"
+    },
+    "contact": {
+        "title": "للتواصل",
+        "imprint": "IMPRINT",
+        "description": "Phyxsius#1238  أو إضافة </a>.الأنضمام الى خادم البوت <a href = 'https: //discord.gg/twCbaFM' class = 'serverA' > ,اذا كنت تريد الاتصال بالمطور أو ارسال خطأ أو اقتراح ميزة أو مجرد التحدث عن حذف تيمو "
+    },
+    "footer": {
+        "text": "<a href='http://tmiracle.deviantart.com/'>TMiracle</a> الصورة الرمزية مصنوعة بواسطة<br><a href='https://dojomadness.com/'>Dojo Madness</a> يتم جلب البارون لك من قبل<br>.Phyxsius كل الحقوق محفوظة. تم إجراء الموقع والبوت <span>❤</span> بواسطة"
+    },
+    "commandsDesc": {
+        "baron": ".معلومات عامة واحصائيات",
+        "ability": ".معلومات مفصلة عن القدرة",
+        "add-remove": ".إضافة / حذف المستدعي من وإلى حسابك",
+        "bans": ".معظم الأبطال المحظورين",
+        "best": ".أفضل بطل لدور محدد",
+        "champion": ".كل ما تحتاج إلى معرفته عن بطل: البيلد,الرونز,السبيلز,الخ",
+        "counters": ".أفضل كونترز لشامبيون محدد",
+        "disable-enable": ".تعطيل بارون على القناة. / تمكين بارون مرة أخرى على القناة",
+        "help": ".إذا احتجت مساعدة",
+        "info": ".معلومات البطل",
+        "invite": ".احصل على رابط دعوة البوت لإضافته إلى خادمك",
+        "item": ".معلومات مفصلة عن العنصر",
+        "language": ".تحقق من اللغات المتاحة وقم بتغيير لغة البوت",
+        "lastplayed": ".يظهر عندما يلعب لاعب آخر بطلاً محددًا",
+        "live": ".معلومات اللعبة المباشرة: الرتب ،معدل الفوز ، إلخ",
+        "mastery": ".قائمة أبطال مع معظم نقاط إتقان من قبل المستدعي",
+        "patchnotes": ".أحدث ملاحظات الباتش",
+        "profile": ".ملف تعريف المستدعي مع الرتب ، الأبطال ، آخر مباراة ، إلخ",
+        "rotation": ".الشامبيونات المجانية الأسبوعية",
+        "rune": ".تفاصيل عن رونز معين",
+        "sales": ".تخفيضات البطل والاسكنز الحالى",
+        "serverupdates": ".تحذيرات لتحديثات الخادم",
+        "skins": ".قوائم اسكنز الأبطال أو يعرض معلومات مفصلة عن اسكنز معينة مع أسعارها",
+        "status": ".حالة الخادم",
+        "streams": ".قوائم المجموعات البث الحالية للبطل المعطى",
+        "synergy": ".أفضل الأبطال الذى يتعاون معهم البطل المحدد",
+        "tips": ".نصائح للعب مع ضد الشامبيون",
+        "topplayers": ".اللاعبون الذين يملكون أكثر نقاط الإتقان في جميع أنحاء العالم على بطل معين",
+        "ultimatebravery": ".مستدعي عشوائي ، بناء ، مسار مهارة ، إلخ",
+        "update": ".تحقق من آخر تحديث بارون",
+        "navigate": ".التنقل عبر الصفحات باستخدام أقل ردود الفعل ",
+        "title": "أوامر البارون",
+        "description": ":كل الاوامر المتاحة",
+        "page": "صفحة"
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [البطل] [p/q/w/e/r/ult]",
+        "add-remove": "!b add [المستدعى] [المنطقة] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [دور]",
+        "champion": "!b champion [الدور] [البطل] [highest/frequent](optional)",
+        "counters": "!b counters [الدور] [البطل]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [البطل]",
+        "invite": "!b invite",
+        "item": "!b item [الأسم]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [الاسم]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [البطل] / !b skins [اسم الأسكن]",
+        "status": "!b status",
+        "streams": "!b streams [البطل]",
+        "synergy": "!b synergy [الدور] [البطل]",
+        "tips": "!b tips [البطل]",
+        "topplayers": "!b topplayers [البطل]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}

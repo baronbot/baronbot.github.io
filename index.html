@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>Baron, a LoL Discord Bot.</title>
     <meta property="og:title" content="Baron, a LoL Discord Bot." />
@@ -8,208 +9,227 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Baron Bot" />
     <meta property="og:keywords" content="Baron,Baron Bot,Discord Bot,League of Legends Discord bot,League of Legends" />
-    <meta property="og:description" content="Baron is a League of Legends Discord bot. It tries to offer the most accurate information, in the shortest time possible. Live game info, profiles, champion runes, and much more." />
+    <meta property="og:description" content="Baron is a League of Legends Discord bot. It tries to offer the most accurate information, in the shortest time possible. Live game info, profiles, champion runes, and much more."/>
     <meta name="theme-color" content="#da259d">
 
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="lightbox/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="scroller/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="modal/modal.css">
 </head>
+
 <body>
     <div id="firstDiv">
         <div class="topBar">
-            <a>BARON</a>
-            <div class="topBar-GetBaron">GET BARON</div>
-            <div class="topBar-Commands">COMMANDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-            <div class="topBar-About">ABOUT</div>
+            <a class="topBar-Title" style="float: left;">BARON</a>
+            <img src="http://oi64.tinypic.com/mt3r5w.jpg" class="topBarImg">
+
+            <div class="lang-dropdown">
+                <div class="dropbtn"><img class="dropbtn-img" src="https://image.ibb.co/kfd1A9/United_Kingdom.png"><span
+                        class="dropbtn-txt">English</span><span class="dropbtn-arrow">&emsp;▼</span></div>
+                <div class="dropdown-content">
+                    <a locale="en"><li><img src="https://image.ibb.co/kfd1A9/United_Kingdom.png" /><span class="lang-name">English</span></li></a>
+                    <a locale="es"><li><img src="https://image.ibb.co/f3dexp/Spain.png" /><span class="lang-name">Español</span></li></a>
+                    <a locale="fr"><li><img src="https://image.ibb.co/fwgzxp/France.png" /><span class="lang-name">Français</span></li></a>
+                    <a locale="hu"><li><img src="https://image.ibb.co/dkHuV9/Hungary.png" /><span class="lang-name">Magyar</span></li></a>
+                    <a locale="nl"><li><img src="https://image.ibb.co/jhmoq9/Netherlands.png" /><span class="lang-name">Nederlands</span></li></a>
+                    <a locale="pl"><li><img src="https://image.ibb.co/e5q3OU/Poland.png" /><span class="lang-name">Polski</span></li></a>
+                    <a locale="br"><li><img src="https://image.ibb.co/ezMMA9/Brazil.png" /><span class="lang-name">Português</span></li></a>
+                    <a locale="pt"><li><img src="https://image.ibb.co/cuRzxp/Portugal.png" /><span class="lang-name">Português</span></li></a>
+                    <a locale="ar"><li><img src="https://image.ibb.co/ktB5Mp/Egypt.png" /><span class="lang-name">العربية</span></li></a>
+                    <a locale="ru"><li><img src="https://image.ibb.co/iq8ZV9/Russia.png" /><span class="lang-name">Русский язык</span></li></a>
+                </div>
+            </div>
+
+            <div translate="topbar.getBaron" class="topBar-GetBaron"></div>
+            <div translate="topbar.commands" class="topBar-Commands"></div>
+            <div translate="topbar.about" class="topBar-About"></div>
         </div>
         <div class="firstDiv-Center">
             <div class="baronImage">
                 <img src="imgs/WebsiteImageWithLangs.png?1">
             </div>
-            <!--<p class="quote">Hey, I’m Baron, a League Of Legends Discord Bot!</p>-->
             <div class="stats">
                 <div class="statsServers">
-                    <div>Servers
-                        <br><span class="statsServersNum num">0</span></div>
+                    <div><span class="statsTitle" translate="stats.servers"></span>
+                        <br><span class="statsServersNum num"></span></div>
                 </div>
                 <div class="statsUsers">
-                    <div>Users
-                        <br><span class="statsUsersNum num">0</span></div>
+                    <div><span class="statsTitle" translate="stats.users"></span>
+                        <br><span class="statsUsersNum num"></span></div>
                 </div>
                 <div class="statsChannels">
-                    <div>Channels
-                        <br><span class="statsChannelsNum num">0</span></div>
+                    <div><span class="statsTitle" translate="stats.channels"></span>
+                        <br><span class="statsChannelsNum num"></span></div>
                 </div>
             </div>
         </div>
         <a href="https://discord.gg/twCbaFM"><img href="https://discord.gg/twCbaFM" src="https://discordapp.com/api/guilds/265503362739339274/embed.png" class="discordServerImg"></a>
     </div>
-    <!--<div id="about" style="background: #CB356B; background: -webkit-linear-gradient(to right, #BD3F32, #CB356B); background: linear-gradient(to right, #BD3F32, #CB356B);">
-        <div class="aboutWrapper">
-            <p class="aboutTitle">GIVEAWAY</p>
-            <p class="aboutContent">I've partenered up with <span style="color: #FE9700">Fnatic</span>, <span style="color: #FE9700">Mobalytics</span>, <span style="color: #FE9700">Stage.GG</span>, <span style="color: #FE9700">PhyLoL</span> and <span style="color: #FE9700">PVPLive</span> and we're doing a huge giveaway with over <span style="color: #FE9700">1k on prizes</span>, such as a bunch of <span style="color: #FE9700">RP cards</span>, <span style="color: #FE9700">Fnatic gear</span> and <span style="color: #FE9700">much more.</span>
-            <br>
-            <br>
-            <img src="https://d36eyd5j1kt1m6.cloudfront.net/user-assets/512663/YY3zw39F9JwEnBUX/summer-giveaway-fnatic.jpg" alt="" width="40%">
-            <br>
-            <br>
-            <a style="font-weight: bold; color: #FE9700; font-size: 30px;">OVER!</a></p>
-        </div>
-    </div>-->
     <div id="about">
         <div class="aboutWrapper">
-            <p class="aboutTitle">ABOUT</p>
-            <p class="aboutContent">Baron is a League of Legends Discord bot. It tries to offer the most accurate information, in the shortest time possible. The bot's objective is to eliminate the effort to open third party websites to get crucial information.</p>
+            <p translate="about.title" class="aboutTitle"></p>
+            <p translate="about.description" class="aboutContent"></p>
         </div>
     </div>
     <div id="commands">
         <div class="tabela">
-            <p class="commandsTitle">COMMANDS</p>
+            <p translate="commands.title" class="commandsTitle"></p>
             <table>
                 <thead>
                     <tr>
-                        <th scope="col">Commands</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Usage</th>
+                        <th translate="commands.commands" scope="col"></th>
+                        <th translate="commands.description" scope="col"></th>
+                        <th translate="commands.usage" scope="col"></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b</td>
-                        <td data-label="Description">General info and stats.</td>
-                        <td data-label="Usage"><a href="command_examples/baron.png" data-lightbox="baron">!b</a></td>
+                        <td translate="commandsDesc.baron" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.baron" href="command_examples/baron.png" data-lightbox="baron"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b ability</td>
-                        <td data-label="Description">Detailed information of an ability.</td>
-                        <td data-label="Usage"><a href="command_examples/ability.png" data-lightbox="ability">!b ability [champion] [p/q/w/e/r/ult]</a></td>
+                        <td translate="commandsDesc.ability" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.ability" href="command_examples/ability.png" data-lightbox="ability"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b add/remove</td>
-                        <td data-label="Description">Link your summoner so you don't have to type it.</td>
-                        <td data-label="Usage"><a href="command_examples/addRemove.png" data-lightbox="addRemove">!baron add [region] [summoner] / !b remove</a></td>
+                        <td translate="commandsDesc.add-remove" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.add-remove" href="command_examples/addRemove.png" data-lightbox="addRemove"></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b bans</td>
-                        <td data-label="Description">Most banned champions.</td>
-                        <td data-label="Usage"><a href="command_examples/bans.png" data-lightbox="bans">!b bans</a></td>
+                        <td translate="commandsDesc.bans" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.bans" href="command_examples/bans.png" data-lightbox="bans"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b best</td>
-                        <td data-label="Description">Best champion for specified role.</td>
-                        <td data-label="Usage"><a href="command_examples/best.png" data-lightbox="best">!b best [role]</a></td>
+                        <td translate="commandsDesc.best" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.best" href="command_examples/best.png" data-lightbox="best"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b champion</td>
-                        <td data-label="Description">Everything you need to know about a champion: Builds, runes, spells, etc.</td>
-                        <td data-label="Usage"><a href="command_examples/champion.png" data-lightbox="champion">!b champion [champion] [role] [highest/frequent](optional)</a></td>
+                        <td translate="commandsDesc.champion" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.champion" href="command_examples/champion.png" data-lightbox="champion"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b counters</td>
-                        <td data-label="Description">Best counters to specified champion.</td>
-                        <td data-label="Usage"><a href="command_examples/counters.png" data-lightbox="counters">!b counters [champion] [role]</a></td>
+                        <td translate="commandsDesc.counters" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.counters" href="command_examples/counters.png" data-lightbox="counters"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b disable/enable</td>
-                        <td data-label="Description">Disables/enables Baron on a channel.</td>
-                        <td data-label="Usage"><a href="command_examples/disableEnable.png" data-lightbox="disableEnable">!b disable/enable</a></td>
+                        <td translate="commandsDesc.disable-enable" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.disable-enable" href="command_examples/disableEnable.png" data-lightbox="disableEnable"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b help</td>
-                        <td data-label="Description">If you ever need help.</td>
-                        <td data-label="Usage"><a href="command_examples/help.png" data-lightbox="help">!b help</a></td>
+                        <td translate="commandsDesc.help" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.help" href="command_examples/help.png" data-lightbox="help"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b info</td>
-                        <td data-label="Description">Champion info.</td>
-                        <td data-label="Usage"><a href="command_examples/info.png" data-lightbox="info">!b info [champion]</a></td>
+                        <td translate="commandsDesc.info" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.info" href="command_examples/info.png" data-lightbox="info"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b invite</td>
-                        <td data-label="Description">Get the bot's invite link to add it to your server.</td>
-                        <td data-label="Usage"><a href="command_examples/invite.png" data-lightbox="invite">!b invite</a></td>
+                        <td translate="commandsDesc.invite" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.invite" href="command_examples/invite.png" data-lightbox="invite"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b item</td>
-                        <td data-label="Description">Detailed information of an item.</td>
-                        <td data-label="Usage"><a href="command_examples/item.png" data-lightbox="item">!b item [item]</a></td>
+                        <td translate="commandsDesc.item" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.item" href="command_examples/item.png" data-lightbox="item"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b language</td>
-                        <td data-label="Description">Check available languages and change the bot's laguange.</td>
-                        <td data-label="Usage"><a href="command_examples/language.png" data-lightbox="language">!b language</a></td>
+                        <td translate="commandsDesc.language" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.language" href="command_examples/language.png" data-lightbox="language"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b lastplayed</td>
-                        <td data-label="Description">Shows when a player last played a specified champion.</td>
-                        <td data-label="Usage"><a href="command_examples/lastplayed.png" data-lightbox="lastplayed">!b lastplayed</a></td>
+                        <td translate="commandsDesc.lastplayed" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.lastplayed" href="command_examples/lastplayed.png" data-lightbox="lastplayed"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b live</td>
-                        <td data-label="Description">Live game informations: Ranks, winrate, etc.</td>
-                        <td data-label="Usage"><a href="command_examples/live.png" data-lightbox="live">!b live</a></td>
+                        <td translate="commandsDesc.live" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.live" href="command_examples/live.png" data-lightbox="live"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b mastery</td>
-                        <td data-label="Description">List of champions with most mastery points by a summoner.</td>
-                        <td data-label="Usage"><a href="command_examples/mastery.png" data-lightbox="mastery">!b mastery</a></td>
+                        <td translate="commandsDesc.mastery" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.mastery" href="command_examples/mastery.png" data-lightbox="mastery"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b patchnotes</td>
-                        <td data-label="Description">Latest patch notes.</td>
-                        <td data-label="Usage"><a href="command_examples/patchnotes.png" data-lightbox="patchnotes">!b patchnotes</a></td>
+                        <td translate="commandsDesc.patchnotes" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.patchnotes" href="command_examples/patchnotes.png" data-lightbox="patchnotes"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b profile</td>
-                        <td data-label="Description">Summoner profile with ranks, champions, last game, etc.</td>
-                        <td data-label="Usage"><a href="command_examples/profile.png" data-lightbox="profile">!b profile</a></td>
+                        <td translate="commandsDesc.profile" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.profile" href="command_examples/profile.png" data-lightbox="profile"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b rotation</td>
-                        <td data-label="Description">Free week rotation.</td>
-                        <td data-label="Usage"><a href="command_examples/rotation.png" data-lightbox="rotation">!b rotation</a></td>
+                        <td translate="commandsDesc.rotation" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.rotation" href="command_examples/rotation.png" data-lightbox="rotation"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b rune</td>
-                        <td data-label="Description">Details for a given rune.</td>
-                        <td data-label="Usage"><a href="command_examples/rune.png" data-lightbox="rune">!b rune [rune]</a></td>
+                        <td translate="commandsDesc.rune" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.rune" href="command_examples/rune.png" data-lightbox="rune">!</a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b sales</td>
-                        <td data-label="Description">Current champion and skin sales.</td>
-                        <td data-label="Usage"><a href="command_examples/sales.png" data-lightbox="sales">!b sales</a></td>
+                        <td translate="commandsDesc.sales" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.sales" href="command_examples/sales.png" data-lightbox="sales"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b serverupdates</td>
-                        <td data-label="Description">Warnings for server updates.</td>
-                        <td data-label="Usage"><a href="command_examples/serverupdates.png" data-lightbox="serverupdates">!b serverupdates</a></td>
+                        <td translate="commandsDesc.serverupdates" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.serverupdates" href="command_examples/serverupdates.png" data-lightbox="serverupdates">!</a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b skins</td>
-                        <td data-label="Description">Lists champions skins or displays detailed info for a certain skin along with their prices.</td>
-                        <td data-label="Usage"><a href="command_examples/skins.png" data-lightbox="skins">!b skins</a></td>
+                        <td translate="commandsDesc.skins" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.skins" href="command_examples/skins.png" data-lightbox="skins"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b status</td>
-                        <td data-label="Description">Server status.</td>
-                        <td data-label="Usage"><a href="command_examples/status.png" data-lightbox="status">!b status</a></td>
+                        <td translate="commandsDesc.status" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.status" href="command_examples/status.png" data-lightbox="status"></a></td>
+                    </tr>
+                    <tr class="slightlyColored">
+                        <td data-label="Command" class="pinkBg">!b streams</td>
+                        <td translate="commandsDesc.streams" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.streams" href="command_examples/streams.png" data-lightbox="status"></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command" class="pinkBg">!b synergy</td>
+                        <td translate="commandsDesc.synergy" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.synergy" href="command_examples/synergy.png" data-lightbox="status"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b tips</td>
-                        <td data-label="Description">Tips to play with and against a champion.</td>
-                        <td data-label="Usage"><a href="command_examples/tips.png" data-lightbox="tips">!b tips</a></td>
+                        <td translate="commandsDesc.tips" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.tips" href="command_examples/tips.png" data-lightbox="tips"></a></td>
                     </tr>
                     <tr>
                         <td data-label="Command" class="pinkBg">!b topplayers</td>
-                        <td data-label="Description">Players with the most mastery points all over the world on given champion.</td>
-                        <td data-label="Usage"><a href="command_examples/topplayers.png" data-lightbox="topplayers">!b topplayers</a></td>
+                        <td translate="commandsDesc.topplayers" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.topplayers" href="command_examples/topplayers.png" data-lightbox="topplayers"></a></td>
                     </tr>
                     <tr class="slightlyColored">
                         <td data-label="Command" class="pinkBg">!b ultimatebravery</td>
-                        <td data-label="Description">Random summoners, build, skill path, etc.</td>
-                        <td data-label="Usage"><a href="command_examples/ultimatebravery.png" data-lightbox="ultimatebravery">!b ultimatebravery</a></td>
+                        <td translate="commandsDesc.ultimatebravery" data-label="Description"></td>
+                        <td data-label="Usage"><a translate="commandsUsage.ultimatebravery" href="command_examples/ultimatebravery.png" data-lightbox="ultimatebravery"></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -219,24 +239,44 @@
     </div>
     <div id="about">
         <div class="aboutWrapper">
-            <p class="aboutTitle">CONTACT</p>
-            <p style="margin-top: -20px;"><a href="https://dojomadness.com/contact.html" style="font-family: FontBold; color: #551A8B; letter-spacing: 3px;">IMPRINT</a></p>
+            <p translate="contact.title" class="aboutTitle"></p>
+            <p style="margin-top: -20px;"><a translate="contact.imprint" href="https://dojomadness.com/contact.html" style="font-family: FontBold; color: #551A8B; letter-spacing: 3px;"></a></p>
             <br>
-            <p class="aboutContent">If you want to contact the developer, submit a bug, suggest a feature, or simply just talk about how Teemo should be deleted from the game, <a href="https://discord.gg/twCbaFM" class="serverA" style="color: #551A8B;">join the bot's server</a> or add Phyxsius#1238.</p>
+            <p translate="contact.description" class="aboutContent"></p>
         </div>
     </div>
     <footer>
-    	<p>All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Baron is brought to you by <a href="https://dojomadness.com/">Dojo Madness</a>.<br>Avatar made by <a href="http://tmiracle.deviantart.com/">TMiracle</a>.</p>
-        <a target="_blank" href="https://discordbots.org/bot/240482527695994880" >
+        <p translate="footer.text"></p>
+        <div class="translationsDiv btn trigger" style="cursor: pointer;">
+            <img src="http://oi66.tinypic.com/j94mxi.jpg" style="height: 20px; margin-bottom: 7px; vertical-align: top; margin-right: 5px;"><span style="font-family: FontRegular; font-size: 0.95em;">Translations</span>
+        </div>
+        <a target="_blank" href="https://discordbots.org/bot/240482527695994880">
             <img src="https://discordbots.org/api/widget/lib/240482527695994880.svg?noavatar=true" alt="Discord Music Bot" />
         </a>
         <br>
         <br>
-        <p>Baron isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. <br>League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
+        <p>Baron isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</p>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <script src="lightbox/js/lightbox.js"></script>
-</body>
 
+    <!-- Translators modal. -->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div class="head">
+                <span>Thank you!</span>
+                <a class="btn-close trigger"></a>
+            </div>
+            <div class="content">
+                <p>Thank you very much to every single one of you that helped Baron getting a new voice, and by doing so, reach new people and communities!</p>
+                <div class="translatorsList translatorsList1"></div>
+                <div class="translatorsList translatorsList2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+    <script src="scroller/perfect-scrollbar.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>

@@ -1,0 +1,159 @@
+.modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(54, 57, 62, 0.75);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    z-index: 5;
+}
+
+.modal-wrapper.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    width: 600px;
+    height: 350px;
+    margin: 50% 0 0 -300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-image: url(http://oi68.tinypic.com/xkyqvr.jpg);
+    background-size: cover;
+}
+
+.modal-wrapper.open .modal {
+    margin-top: -200px;
+    opacity: 1;
+}
+
+.head {
+    width: 90%;
+    height: 32px;
+    padding: 5%;
+    overflow: hidden;
+    background: #D6249A;
+    text-align: center;
+}
+
+.btn-close {
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+.btn-close::before, .btn-close::after {
+    content: '';
+    width: 32px;
+    height: 6px;
+    display: block;
+    background: #fff;
+}
+
+.btn-close::before {
+    margin-top: 12px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.btn-close::after {
+    margin-top: -6px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.content > p {
+    font-family: FontRegular;
+    width: 95%;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.translatorsList {
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+}
+
+.translatorsListItem {
+    margin: 0 auto;
+    width: 70%;
+    font-family: FontRegular;
+    margin-top: 5px;
+}
+
+.translatorsListItem > img {
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px #d6249a solid;
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 22px;
+}
+
+.head > span {
+    color: white;
+    font-family: FontLight;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 660px) {
+    .modal {
+      height: 305px;
+      width: 300px;
+      margin: 50% 0 0 -150px;
+    }
+
+    .modal-wrapper.open .modal {
+      margin-top: -153px;
+      opacity: 1;
+    } 
+
+    .translatorsListItem {
+      width: 90%;
+    }
+
+    .translatorsListItem {
+      font-size: 13px;
+    }
+
+    .translatorsListItem > img {
+      vertical-align: middle;
+      border-radius: 50%;
+      border: 2px #d6249a solid;
+      height: 20px;
+      width: 20px;
+      margin-right: 5px;
+      margin-left: 0px;
+    }
+
+    .content > p {
+      font-family: FontRegular;
+      width: 95%;
+      text-align: center;
+      margin-left: 6px;
+    }
+}

@@ -1,0 +1,92 @@
+{   
+    "topbar": {
+        "about": "INFORMACIÓN",
+        "commands": "COMANDOS",
+        "getBaron": "OBTENER"
+    },
+    "stats": {
+        "servers": "Servidores",
+        "users": "Usuarios",
+        "channels": "Canales"
+    },
+    "about": {
+        "title": "INFORMACIÓN",
+        "description": "Baron es un bot de League of Legends. Este trata de ofrecer la información lo más precisa posible, en el menor tiempo posible. El objetivo del bot es evitar el esfuerzo de abrir una página web extra para conseguir información crucial."
+    },
+    "commands": {
+        "title": "COMANDOS",
+        "commands": "COMANDOS",
+        "description": "DESCRIPCIÓN",
+        "usage": "USO"
+    },
+    "contact": {
+        "title": "CONTACTO",
+        "imprint": "IMPRINT",
+        "description": "Si quieres contactar al desarrolador, reportar un bug, sugerir una caracteristica, o simplemente hablar sobre porqué Teemo debería ser borrado del juego, <a href='https://discord.gg/twCbaFM' class='serverA'>únete al servidor official</a> o agregamé Phyxsius#1238."
+    },
+    "footer": {
+        "text": "Todos los derechos reservados. El sitio web y el bot fueron hechos <span>❤</span> por Phyxsius.<br>Baron es traído por <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar hechos por <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+    },
+    "commandsDesc": {
+        "baron": "Información y estadísticas generales.",
+        "ability": "Información detallada sobre una habilidad.",
+        "add-remove": "Vincula/Desvincula tu cuenta de League of Legends con la cuenta de Discord.",
+        "bans": "Campeones más baneados actualmente.",
+        "best": "Mejores campeones para un rol especifico.",
+        "champion": "Todo lo que necesitas saber acerca de un campeón: objetos, runas, hechizos, etc.",
+        "counters": "Los mejores counters para un campeón.",
+        "disable-enable": "Desactivar/Volver a activar Baron en un canal.",
+        "help": "Si necesitas ayudita.",
+        "info": "Información de un campeón.",
+        "invite": "Conseguir el enlace de invitación a un servidor.",
+        "item": "Información detallada de un objeto.",
+        "language": "Revisar los idiomas disponibles y cambiar el idioma del bot.",
+        "lastplayed": "Muestra cuando un jugador jugó por última vez un campeón.",
+        "live": "Información de juego en vivo: Clasificación, Ratio de Victoria, etc.",
+        "mastery": "Lista de los campeónes con más maestría de un invocador.",
+        "patchnotes": "Notas del parche.",
+        "profile": "Perfil de un invocador con clasificación, campeónes, último juego, etc.",
+        "rotation": "Rotación Gratuita Semanal.",
+        "rune": "Información sobre una runa en específico.",
+        "sales": "Actuales ofertas de campeón y aspectos.",
+        "serverupdates": "Advertencias sobre el servidor.",
+        "skins": "Lista de aspectos de un campeón o muestra información detallada acerca de un aspecto especifico.",
+        "status": "Estado del servidor.",
+        "streams": "Muestra los streams en vivo para el campeón dado.",
+        "synergy": "Campeones de mejor sinergia con el campeón especificado.",
+        "tips": "Consejos para jugar con y contra un campeón.",
+        "topplayers": "Jugadores con más maestrías para un campeón específico.",
+        "ultimatebravery": "Aletorios hechizos, objetos, orden de habilidad, etc."
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [campeón] [p/q/w/e/r/ult]",
+        "add-remove": "!baron add [región] [invocador] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [rol]",
+        "champion": "!b champion [campeón] [rol] [highest/frequent](optional)",
+        "counters": "!b counters [campeón] [rol]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [campeón]",
+        "invite": "!b invite",
+        "item": "!b item [nombre]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [nombre]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [campeón/aspecto]",
+        "status": "!b status",
+        "streams": "!b streams [campeón]",
+        "synergy": "!b synergy [campeón] [rol]",
+        "tips": "!b tips [campeón]",
+        "topplayers": "!b topplayers [campeón]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}
