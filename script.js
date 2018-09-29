@@ -52,12 +52,14 @@ $(document).ready(function () {
 
         if ($(window).width() > 466) {
             $(".dropbtn").css("background-color", "#303236");
+            $("body").disableScroll();
         }
     });
 
     $(".dropdown-content, .dropbtn").on("mouseout", function () {
         if ($(window).width() > 466) {
             $(".dropbtn").css("background-color", "inherit");
+            $("body").enableScroll();
         }
     });
 
@@ -65,10 +67,12 @@ $(document).ready(function () {
         if($(".dropdown-content").hasClass("open")){
             $(".dropdown-content").hide();
             $(".dropdown-content").removeClass("open");
+            $("body").enableScroll();
         } else {
             ps.update();
             $(".dropdown-content").show();
             $(".dropdown-content").addClass("open");
+            $("body").disableScroll();
         }
     });
 
@@ -111,3 +115,16 @@ function setLanguage(locale) {
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
+$.fn.disableScroll = function() {
+    window.oldScrollPos = $(window).scrollTop();
+
+    $(window).on("scroll.scrolldisabler",function ( event ) {
+       $(window).scrollTop( window.oldScrollPos );
+       event.preventDefault();
+    });
+};
+
+$.fn.enableScroll = function() {
+    $(window).off("scroll.scrolldisabler");
+};
