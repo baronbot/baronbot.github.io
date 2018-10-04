@@ -67,12 +67,17 @@ $(document).ready(function () {
         if($(".dropdown-content").hasClass("open")){
             $(".dropdown-content").hide();
             $(".dropdown-content").removeClass("open");
-            $("body").enableScroll();
+
+            if ($(window).width() > 466) {
+                $("body").enableScroll();
+            }
         } else {
             ps.update();
             $(".dropdown-content").show();
             $(".dropdown-content").addClass("open");
-            $("body").disableScroll();
+            if ($(window).width() > 466) {
+                $("body").disableScroll();
+            }
         }
     });
 

@@ -122,13 +122,13 @@
 
 @media screen and (max-width: 660px) {
     .modal {
-      height: 305px;
+      height: 335px;
       width: 300px;
       margin: 50% 0 0 -150px;
     }
 
     .modal-wrapper.open .modal {
-      margin-top: -153px;
+      margin-top: -170px;
       opacity: 1;
     } 
 

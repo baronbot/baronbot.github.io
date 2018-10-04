@@ -1,0 +1,92 @@
+{   
+    "topbar": {
+        "about": "ÜBER UNS",
+        "commands": "BEFEHLE",
+        "getBaron": "BARON EINLADEN"
+    },
+    "stats": {
+        "servers": "Server",
+        "users": "Benutzer",
+        "channels": "Kanäle"
+    },
+    "about": {
+        "title": "ÜBER UNS",
+        "description": "Baron ist ein League of Legends Discord Bot. Er informiert dich und deine Freunde auf dem schnellsten Weg über wichtige Informationen zu League of Legends. Durch ihn ist langes suchen auf Websiten von Dritten nicht mehr nötig."
+    },
+    "commands": {
+        "title": "BEFEHLE",
+        "commands": "BEFEHLE",
+        "description": "BESCHREIBUNG",
+        "usage": "VERWENDUNG"
+    },
+    "contact": {
+        "title": "KONTAKT",
+        "imprint": "IMPRINT",
+        "description": "Hast du Fragen an den Entwickler, Anregungen für neue Funktionen, einen Bug gefunden oder eine Idee wie man Teemo aus dem Spiel entfernen kann? Schau doch einfach mal <a href='https://discord.gg/twCbaFM' class='serverA'>hier</a> auf unserem Discord Server vorbei oder adde Phyxsius#1238 auf Discord."
+    },
+    "footer": {
+        "text": "Alle Rechte vorbehalten. Die Internetseite und der Bot wurden mit viel <span>❤</span> von Phyxsius programmiert.<br>Baron Bot wird euch bereitgestellt von <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar erstellt von <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+    },
+    "commandsDesc": {
+        "baron": "Allgemeine Infos und Statistiken.",
+        "ability": "Genaue Infos über eine Fähigkeit.",
+        "add-remove": "Verknüpfe bzw. trenne deinen League of Legends Account mit/von deinem Discord Account.",
+        "bans": "Meist gebannte Champions.",
+        "best": "Zeigt dir die besten Champions auf einer Lane.",
+        "champion": "Zeigt dir die wichtigsten Infos über einen Champion: Itembuilds, Runen, Fähigkeiten, usw.",
+        "counters": "Beste Counter gegen einen Champion.",
+        "disable-enable": "Aktiviere/Deaktiviere den Baron Bot in einem Channel.",
+        "help": "Falls du mal Hilfe brauchst.",
+        "info": "Kurzinfos und Grundwerte eines Champion.",
+        "invite": "Hier findest du den Einladungslink um den Bot deinem Server hinzuzufügen.",
+        "item": "Genaue Infos über ein Item.",
+        "language": "Hier siehst du die vorhandenen Sprachen und kannst diese ändern.",
+        "lastplayed": "Zeigt, wann ein Spieler einen Champion das letzte mal gespielt hat.",
+        "live": "Zeigt Infos über die Runde die du grade Spielst: Ränge, Winrate, usw.",
+        "mastery": "Liste der Champions mit der höchsten Meisterschaftswertung eines Spielers.",
+        "patchnotes": "Zeigt die letzten Patch Notes.",
+        "profile": "Profil eines Spielers. Rang, Champions, letztes Spiel, usw.",
+        "rotation": "Zeigt aktuelle kostenlose Champion Rotation an.",
+        "rune": "Details über eine Rune.",
+        "sales": "Aktuelle Champion und Skin Rabatte.",
+        "serverupdates": "Server Update Warnungen.",
+        "skins": "Zeigt alle Skins eines Champions oder Details über einen gewissen Skin an.",
+        "status": "Server Status.",
+        "streams": "Zeigt aktuelle Livestreams zu einem Champion.",
+        "synergy": "Zeigt Champions, welche du gut mit dem gefragten Champion kombinieren kannst.",
+        "tips": "Tipps wie man gegen bzw. mit einem Champion spielen sollte.",
+        "topplayers": "Zeigt den Spieler mit der höchsten Meisterschaftswertung der ganzen Welt auf einem gewissen Champion.",
+        "ultimatebravery": "Gibt dir einen zufälligen Champion mit Runen, Items, usw."
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [champion] [p/q/w/e/r/ult]",
+        "add-remove": "!baron add [region] [nutzername] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [rolle]",
+        "champion": "!b champion [champion] [rolle] [highest/frequent](optional)",
+        "counters": "!b counters [champion] [rolle]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [champion]",
+        "invite": "!b invite",
+        "item": "!b item [item]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [rune]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [champion/skin Name]",
+        "status": "!b status",
+        "streams": "!b streams [champion]",
+        "synergy": "!b synergy [chanpion] [rolle]",
+        "tips": "!b tips [champion]",
+        "topplayers": "!b topplayers [champion]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}

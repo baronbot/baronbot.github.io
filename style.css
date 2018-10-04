@@ -570,8 +570,8 @@ hr {
 @media screen and (max-width: 362px) {
     .topBar-GetBaron {
         font-size: 95%;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding-left: 13px;
+        padding-right: 13px;
     }
 }
 
