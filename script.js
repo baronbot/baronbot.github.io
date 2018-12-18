@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("head").append("<link href='https://i.imgur.com/i5999xB.png' rel='shortcut icon' type='image/x-icon'/>");
+    $("head").append("<link href='/imgs/Avatar.png' rel='shortcut icon' type='image/x-icon'/>");
 
     setLanguage("en");
     const ps = new PerfectScrollbar(".dropdown-content");
