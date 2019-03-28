@@ -91,15 +91,18 @@
     margin-bottom: 30px;
 }
 
-.translatorsList {
+.translatorsListWrapper {
     margin: 0 auto;
-    width: 50%;
+    width: fit-content;
+}
+
+.translatorsList {
+    margin: 0 30px auto;
     float: left;
 }
 
 .translatorsListItem {
     margin: 0 auto;
-    width: 70%;
     font-family: FontRegular;
     margin-top: 5px;
 }
@@ -122,7 +125,7 @@
 
 @media screen and (max-width: 660px) {
     .modal {
-      height: 335px;
+      height: 350px;
       width: 300px;
       margin: 50% 0 0 -150px;
     }
@@ -131,6 +134,12 @@
       margin-top: -170px;
       opacity: 1;
     } 
+
+    .translatorsList {
+        margin: 0;
+        margin-bottom: 10px;
+        width: 150px;
+    }
 
     .translatorsListItem {
       width: 90%;
