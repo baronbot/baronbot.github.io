@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "SOBRE",
-        "description": "Baron é um bot de League of Legends. Todas as suas informações são super precisas, mostradas o mais rapidamente possível. O objetivo do bot é eliminar o esforço de ter que abrir vários sites para obter informações e estatísticas cruciais."
+        "description": "Baron Bot é um bot de League of Legends. Todas as suas informações são super precisas, mostradas o mais rapidamente possível. O objetivo do bot é eliminar o esforço de ter que abrir vários sites para obter informações e estatísticas cruciais."
     },
     "commands": {
         "title": "COMANDOS",
@@ -25,7 +25,7 @@
         "description": "Se quiseres contactar o desenvolvedor, reportar um bug, sugerir novas funcionalidades, ou simplesmente falar de como o Teemo deveria ser eliminado do jogo, junta-te ao <a href='https://discord.gg/twCbaFM' class='serverA'>servidor oficial do bot</a> ou adiciona Phyxsius#1238."
     },
     "footer": {
-        "text": "Todos os direitos reservados. Website e bot desenvolvidos com <span>❤</span> por Phyxsius.<br>Baron é um produto <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar feito por <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+        "text": "Todos os direitos reservados. Website e bot desenvolvidos com <span>❤</span> por Phyxsius.<br>Baron Bot é um produto <a href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar feito por <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
         "baron": "Informações gerais e estatísticas.",
@@ -35,12 +35,12 @@
         "best": "Melhor champion para a role dada.",
         "champion": "Tudo o que necessitas de saber sobre um champion: Builds, runas, spells, etc.",
         "counters": "Melhores counters para o champion específicado.",
-        "disable-enable": "Desativa/ativa o Baron num canal.",
+        "disable-enable": "Desativa/ativa o Baron Bot num canal.",
         "help": "Se precisares de ajuda.",
         "info": "Informações gerais de um champion.",
-        "invite": "Link para adicionares o Baron au teu próprio servidor.",
+        "invite": "Link para adicionares o Baron Bot ao teu próprio servidor.",
         "item": "Informações detalhadas de um item.",
-        "language": "Muda a linguagem do Baron e mostra as linguagens disponíveis.",
+        "language": "Muda a linguagem do Baron Bot e mostra as linguagens disponíveis.",
         "lastplayed": "Mostra a última vez que um summoner jogou o champion específicado.",
         "live": "Informação de um jogo ao vivo: Ranks, winrate, etc.",
         "mastery": "Lista os champions em que o summoner tem mais mastery points.",
@@ -61,7 +61,7 @@
     "commandsUsage": {
         "baron": "!b",
         "ability": "!b ability [champion] [p/q/w/e/r/ult]",
-        "add-remove": "!baron add [região] [summoner] / !b remove",
+        "add-remove": "!b add [região] [summoner] / !b remove",
         "bans": "!b bans",
         "best": "!b best [role]",
         "champion": "!b champion [champion] [role] [highest/frequent](optional)",

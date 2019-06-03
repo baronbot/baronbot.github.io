@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "ÜBER UNS",
-        "description": "Baron ist ein League of Legends Discord Bot. Er informiert dich und deine Freunde auf dem schnellsten Weg über wichtige Informationen zu League of Legends. Durch ihn ist langes suchen auf Internetseiten von Dritten nicht mehr nötig."
+        "description": "Baron Bot ist ein League of Legends Discord Bot. Er informiert dich und deine Freunde auf dem schnellsten Weg über wichtige Informationen zu League of Legends. Durch ihn ist langes suchen auf Internetseiten von Dritten nicht mehr nötig."
     },
     "commands": {
         "title": "BEFEHLE",
@@ -25,7 +25,7 @@
         "description": "Hast du Fragen an den Entwickler, Anregungen für neue Funktionen, einen Bug gefunden oder eine Idee wie man Teemo aus dem Spiel entfernen kann? Schau doch einfach mal <a href='https://discord.gg/twCbaFM' class='serverA'>hier</a> auf unserem Discord Server vorbei oder adde Phyxsius#1238 auf Discord."
     },
     "footer": {
-        "text": "Alle Rechte vorbehalten. Die Internetseite und der Bot wurden mit viel <span>❤</span> von Phyxsius programmiert.<br>Baron Bot wird euch bereitgestellt von <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar erstellt von <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+        "text": "Alle Rechte vorbehalten. Die Internetseite und der Bot wurden mit viel <span>❤</span> von Phyxsius programmiert.<br>Baron Bot wird euch bereitgestellt von <a href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar erstellt von <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
         "baron": "Allgemeine Infos und Statistiken.",
@@ -61,7 +61,7 @@
     "commandsUsage": {
         "baron": "!b",
         "ability": "!b ability [champion] [p/q/w/e/r/ult]",
-        "add-remove": "!baron add [region] [nutzername] / !b remove",
+        "add-remove": "!b add [region] [nutzername] / !b remove",
         "bans": "!b bans",
         "best": "!b best [rolle]",
         "champion": "!b champion [champion] [rolle] [highest/frequent](optional)",

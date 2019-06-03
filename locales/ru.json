@@ -26,7 +26,7 @@
         "description": "Если вы хотите обратиться к разработчику, рассказать о баге, предложить какие - нибудь нововведения, или просто поговорить о том когда как Тимо всех достал и, что его надо убрать из игры, <a href='https://discord.gg/twCbaFM' class='serverA' style='color: #551A8B;'>тогда подключайтесь к нашему серверу</a> или добавьте Phyxsius#1238."
     },
     "footer": {
-        "text": "Все права защищены. Веб-сайт и бота сделаны с <span>❤</span> от Phyxsius.<br>Барона предоставила <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Аварку сделал <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+        "text": "Все права защищены. Веб-сайт и бота сделаны с <span>❤</span> от Phyxsius.<br>Барона предоставила <a href='https://playersrepublik.com/'>Players Republik</a>.<br>Аварку сделал <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
         "baron": "Основная информация и статистика",
@@ -62,7 +62,7 @@
     "commandsUsage": {
         "baron": "!b",
         "ability": "!b ability [чемпион] [p/q/w/e/r/ult]",
-        "add-remove": "!baron add [регион] [призыватель] / !b remove",
+        "add-remove": "!b add [регион] [призыватель] / !b remove",
         "bans": "!b bans",
         "best": "!b best [роль]",
         "champion": "!b champion [чемпион] [роль] [highest/frequent](optional)",

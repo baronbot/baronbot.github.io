@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "OVER",
-        "description": "Baron is een League of Legends Discord bot. Het probeert the meest accurate informatie te geven, in de kortst mogenlijke tijd. Het is de doel van de bot om de moeite te besparen om derde website te moeten openen om cruciale informatie te krijgen."
+        "description": "Baron Bot is een League of Legends Discord bot. Het probeert the meest accurate informatie te geven, in de kortst mogenlijke tijd. Het is de doel van de bot om de moeite te besparen om derde website te moeten openen om cruciale informatie te krijgen."
     },
     "commands": {
         "title": "COMMANDS",
@@ -25,7 +25,7 @@
         "description": "Als je de ontwikkelaar wilt contacteren, storingen melden, suggesties wilt doen, of gewoon wil praten over waarom teemo de beste champion in de game is, <a href='https://discord.gg/twCbaFM' class='serverA' style='color: #551A8B;'> neem deel aan de server</a> of voeg Phyxsius#1238 toe."
     },
     "footer": {
-        "text": "Alle rechten voorbehouden. Website en bot zijn gemaakt met <span>❤</span> door Phyxsius.<br>Baron wordt mede mogelijk gemaakt door <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar gemaakt bij <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+        "text": "Alle rechten voorbehouden. Website en bot zijn gemaakt met <span>❤</span> door Phyxsius.<br>Baron Bot wordt mede mogelijk gemaakt door <a href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar gemaakt bij <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
         "baron": "Algemene informatie en statistieken.",
@@ -35,7 +35,7 @@
         "best": "Beste champion voor een specifieke rol.",
         "champion": "Alles wat je moet weten over een champion: Builds, runes, spells, enz.",
         "counters": "Beste counters voor een specifieke champion.",
-        "disable-enable": "Blokkeer/Deblokkeer Baron op een kanaal.",
+        "disable-enable": "Blokkeer/Deblokkeer Baron Bot op een kanaal.",
         "help": "Als je hulp nodig hebt.",
         "info": "Champion informatie.",
         "invite": "Geeft de link om de bot uit te nodigen voor je server.",
@@ -61,7 +61,7 @@
     "commandsUsage": {
         "baron": "!b",
         "ability": "!b ability [champion] [p/q/w/e/r/ult]",
-        "add-remove": "!baron add [regio] [summoner] / !b remove",
+        "add-remove": "!b add [regio] [summoner] / !b remove",
         "bans": "!b bans",
         "best": "!b best [role]",
         "champion": "!b champion [champion] [role] [highest/frequent](optional)",

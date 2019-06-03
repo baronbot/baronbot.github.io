@@ -11,7 +11,7 @@
     },
     "about": {
         "title": "ABOUT",
-        "description": "Baron is a League of Legends Discord bot. It tries to offer the most accurate information, in the shortest time possible. The bot's objective is to eliminate the effort to open third party websites to get crucial information."
+        "description": "Baron Bot is a League of Legends Discord bot. It tries to offer the most accurate information, in the shortest time possible. The bot's objective is to eliminate the effort to open third party websites to get crucial information."
     },
     "commands": {
         "title": "COMMANDS",
@@ -25,7 +25,7 @@
         "description": "If you want to contact the developer, submit a bug, suggest a feature, or simply just talk about how Teemo should be deleted from the game, <a href='https://discord.gg/twCbaFM' class='serverA'>join the bots server</a> or add Phyxsius#1238."
     },
     "footer": {
-        "text": "All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Baron is brought to you by <a href='https://dojomadness.com/'>Dojo Madness</a>.<br>Avatar made by <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+        "text": "All rights reserved. Website and bot were made with <span>❤</span> by Phyxsius.<br>Baron Bot is brought to you by <a href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar made by <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
         "baron": "General info and stats.",
@@ -35,7 +35,7 @@
         "best": "Best champion for specified role.",
         "champion": "Everything you need to know about a champion: Builds, runes, spells, etc.",
         "counters": "Best counters to specified champion.",
-        "disable-enable": "Disables Baron on a channel. / Enables Baron back on a channel.",
+        "disable-enable": "Disables Baron Bot on a channel. / Enables Baron Bot back on a channel.",
         "help": "If you ever need help.",
         "info": "Champion info.",
         "invite": "Get the bot's invite link to add it to your server.",
@@ -61,7 +61,7 @@
     "commandsUsage": {
         "baron": "!b",
         "ability": "!b ability [champion] [p/q/w/e/r/ult]",
-        "add-remove": "!baron add [region] [summoner] / !b remove",
+        "add-remove": "!b add [region] [summoner] / !b remove",
         "bans": "!b bans",
         "best": "!b best [role]",
         "champion": "!b champion [champion] [role] [highest/frequent](optional)",
