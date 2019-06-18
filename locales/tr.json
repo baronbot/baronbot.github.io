@@ -1,0 +1,92 @@
+{
+    "topbar": {
+        "about": "HAKKINDA",
+        "commands": "KOMUTLAR",
+        "getBaron": "BARON'U EDİN"
+    },
+    "stats": {
+        "servers": "Sunucular",
+        "users": "Kullanıcılar",
+        "channels": "Kanallar"
+    },
+    "about": {
+        "title": "HAKKINDA",
+        "description": "Baron Bot, bir League of Legends Discord botu. En kısa sürede en doğru bilgileri ulaştırmaya çalışır. Botun amacı, önemli bilgiler almak için üçüncü taraf sitelerle aranızdaki bağlantıyı ortadan kaldırmak."
+    },
+    "commands": {
+        "title": "KOMUTLAR",
+        "commands": "KOMUTLAR",
+        "description": "AÇIKLAMA",
+        "usage": "KULLANIM"
+    },
+    "contact": {
+        "title": "İLETİŞİM",
+        "imprint": "IMPRINT",
+        "description": "Eğer geliştiriciye ulaşmak, hata bildirmek, özellik önermek ya da yalnızca Teemo'nun oyundan silinmesi gerektiğine dair konuşmak istersen, sadece <a href='https://discord.gg/twCbaFM' class='serverA'>botun resmi sunucusuna katılr</a> veya Phyxsius#1238 ekle."
+    },
+    "footer": {
+        "text": "Tüm hakları saklıdır. İnternet sitesi ve bot <span>❤</span> ile Phyxsius tarafından yapıldı.<br>Baron Bot, <a href='https://playersrepublik.com/'>Players Republik</a> tarafından destekleniyor.<br>Avatar <a href='http://tmiracle.deviantart.com/'>TMiracle</a> tarafından yapıldı."
+    },
+    "commandsDesc": {
+        "baron": "Genel bilgiler ve istatistikler.",
+        "ability": "Bir yetenekle alakalı detaylı bilgi.",
+        "add-remove": "Bir sihirdarı hesabına tanımlar. / Hesabına ilişkilendirilen sihirdarla bağlantını keser.",
+        "bans": "En sık yasaklanan şampiyonlar.",
+        "best": "Belirtilen rol için en iyi şampiyonlar.",
+        "champion": "Bir şampiyon hakkında bilmen gereken her şey için: Eşya Dizilimi, rünler, sihirdar büyüleri, vb.",
+        "counters": "Belirttiğin şampiyonun en iyi counterları.",
+        "disable-enable": "Belirtilen kanalda Baron Bot'u devre dışı bırakmak için. / Belirtilen kanalda Baron Bot'u yeniden devreye sokmak için.",
+        "help": "Eğer yardıma ihtiyacın olursa.",
+        "info": "Şampiyon hakkında detaylı bilgi.",
+        "invite": "Baron Bot'u kendi Discord'una çağırman için davet linki oluşturur.",
+        "item": "Bir eşya hakkında detaylı bilgi.",
+        "language": "Sunucuda mevcut dili görmek ve opsiyonel dillerin listesini öğrenmek için.",
+        "lastplayed": "Bir sihirdarın, ilgili şampiyonla en son ne zaman oynadığını gösterir.",
+        "live": "Canlı oyun bilgisi sunar: Ligler, kazanma oranları, vb.",
+        "mastery": "Belirttiğin sihirdar isminin en yüksek ustalık puanlarını listeler.",
+        "patchnotes": "En sonki yama notlarını getirir.",
+        "profile": "Belirtilen sihirdarın profilinden lig, şampiyonlars, son oynanan, vb. bilgileri listeler.",
+        "rotation": "Ücretsiz şampiyon rotasyonunu gösterir.",
+        "rune": "Belirttiğin rün için detaylı bilgi verir.",
+        "sales": "Halihazırdaki tüm şampiyon ve kostüm indirimlerini listeler.",
+        "serverupdates": "İlgili kanalda belirttiğin sunucuyla alakalı bir güncelleme olduğunda haber verir.",
+        "skins": "Belirttiğin şampiyonun tüm kostümlerini veya belirttiğin kostüm hakkında detaylı bilgi verir.",
+        "status": "Servis durumunu gösterir.",
+        "streams": "İlgili şampiyonla ilgili canlı yayınları listeler.",
+        "synergy": "Belirttiğin şampiyonla sinerjisi yüksek olan şampiyonları listeler.",
+        "tips": "Belirttiğin şampiyona karşı ve onunla nasıl oynayacağına dair tüyolar verir.",
+        "topplayers": "Belirttiğin şampiyon için, dünya çapında en çok ustalık puanına sahip olan oyuncuları listeler.",
+        "ultimatebravery": "Enteresan eşya dizilimi, yetenek gelişimi vb. yapan rastgele bir sihirdar gösterir."
+    },
+    "commandsUsage": {
+        "baron": "!b",
+        "ability": "!b ability [şampiyon] [p/q/w/e/r/ult]",
+        "add-remove": "!b add [bölge ismi] [sihirdar ismi] / !b remove",
+        "bans": "!b bans",
+        "best": "!b best [rol ismi]",
+        "champion": "!b champion [şampiyon] [rol ismi] [highest/frequent](optional)",
+        "counters": "!b counters [şampiyon] [rol ismi]",
+        "disable-enable": "!b disable/enable",
+        "help": "!b help",
+        "info": "!b info [şampiyon]",
+        "invite": "!b invite",
+        "item": "!b item [eşyanın tam ismi]",
+        "language": "!b language",
+        "lastplayed": "!b lastplayed",
+        "live": "!b live",
+        "mastery": "!b mastery",
+        "patchnotes": "!b patchnotes",
+        "profile": "!b profile",
+        "rotation": "!b rotation",
+        "rune": "!b rune [rün ismi]",
+        "sales": "!b sales",
+        "serverupdates": "!b serverupdates",
+        "skins": "!b skins [şampiyon ismi/kostüm ismi]",
+        "status": "!b status",
+        "streams": "!b streams [şampiyon]",
+        "synergy": "!b synergy [şampiyon ismi] [rol]",
+        "tips": "!b tips [şampiyon ismi]",
+        "topplayers": "!b topplayers [şampiyon ismi]",
+        "ultimatebravery": "!b ultimatebravery"
+    }
+}
