@@ -21,7 +21,7 @@
 
 .modal {
     width: 600px;
-    height: 350px;
+    height: 385px;
     margin: 50% 0 0 -300px;
     position: relative;
     top: 50%;
@@ -125,7 +125,6 @@
 
 @media screen and (max-width: 660px) {
     .modal {
-      height: 350px;
       width: 300px;
       margin: 50% 0 0 -150px;
     }
