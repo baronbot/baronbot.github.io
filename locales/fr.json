@@ -58,7 +58,8 @@
         "synergy": "Meilleurs champions en synergie avec le champion spécifié",
         "tips": "Astuces pour jouer avec et contre un champion.",
         "topplayers": "Joueurs avec le plus de points de maîtrise sur un champion.",
-        "ultimatebravery": "Sorts d'invocateurs, équipement, skill order, etc... aléatoire"
+        "ultimatebravery": "Sorts d'invocateurs, équipement, skill order, etc... aléatoire",
+        "playlists": "Listes de lecture personnalisées pour le style de jeu choisi."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -89,6 +90,7 @@
         "synergy": "!b synergy [champion] [rôle]",
         "tips": "!b tips [champion]",
         "topplayers": "!b topplayers [champion]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [catégorie]"
     }
 }

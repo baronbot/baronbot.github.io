@@ -56,7 +56,8 @@
         "synergy": "Lista os champions com maior sinergia com o champion especifícado.",
         "tips": "Dicas para jogar contra e com um champion.",
         "topplayers": "Jogadores com mais mastery points num certo champion.",
-        "ultimatebravery": "Champion, spells, build, etc aleatório."
+        "ultimatebravery": "Champion, spells, build, etc aleatório.",
+        "playlists": "Playlists personalizadas para o estilo de jogo escolhido."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [champion] [role]",
         "tips": "!b tips [champion]",
         "topplayers": "!b topplayers [champion]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [categoria]"
     }
 }

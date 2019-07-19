@@ -56,7 +56,8 @@
         "synergy": "Najlepsi bohaterowie, którzy synchronizują się z określonymi bohaterami.",
         "tips": "Wskazówki na gre z oraz przeciw danemu bohaterowi.",
         "topplayers": "Gracze z największą ilością punktów maestrii na całym świecie na danej postaci.",
-        "ultimatebravery": "Losowe czary przywoływacza, build, umiejętności, itd."
+        "ultimatebravery": "Losowe czary przywoływacza, build, umiejętności, itd.",
+        "playlists": "Niestandardowe listy odtwarzania dla wybranego stylu gry."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [bohater] [rola]",
         "tips": "!b tips [bohater]",
         "topplayers": "!b topplayers [bohater]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [kategoria]"
     }
 }

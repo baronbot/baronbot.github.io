@@ -56,7 +56,8 @@
         "synergy": "시너지 챔피언",
         "tips": "아군 또는 적 챔피언 팁 확인",
         "topplayers": "세계에서 가장 높은 숙련도 점수를 보유한 챔피언 장인 정보",
-        "ultimatebravery": "랜덤 챔피언, 주문, 빌드 뽑기"
+        "ultimatebravery": "랜덤 챔피언, 주문, 빌드 뽑기",
+        "playlists": "선택한 게임 스타일에 맞게 사용자 지정된 재생 목록"
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [챔피언] [포지션]",
         "tips": "!b tips [챔피언]",
         "topplayers": "!b topplayers [챔피언]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [카테고리]"
     }
 }

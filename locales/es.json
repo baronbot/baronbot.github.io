@@ -56,7 +56,8 @@
         "synergy": "Campeones de mejor sinergia con el campeón especificado.",
         "tips": "Consejos para jugar con y contra un campeón.",
         "topplayers": "Jugadores con más maestrías para un campeón específico.",
-        "ultimatebravery": "Aletorios hechizos, objetos, orden de habilidad, etc."
+        "ultimatebravery": "Aletorios hechizos, objetos, orden de habilidad, etc.",
+        "playlists": "Listas de reproducción personalizadas para el estilo de juego elegido."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [campeón] [rol]",
         "tips": "!b tips [campeón]",
         "topplayers": "!b topplayers [campeón]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [categoria]"
     }
 }

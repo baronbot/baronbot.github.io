@@ -56,7 +56,8 @@
         "synergy": "Zeigt Champions, welche du gut mit dem gefragten Champion kombinieren kannst.",
         "tips": "Tipps wie man gegen bzw. mit einem Champion spielen sollte.",
         "topplayers": "Zeigt den Spieler mit der höchsten Meisterschaftswertung der ganzen Welt auf einem gewissen Champion.",
-        "ultimatebravery": "Gibt dir einen zufälligen Champion mit Runen, Items, usw."
+        "ultimatebravery": "Gibt dir einen zufälligen Champion mit Runen, Items, usw.",
+        "playlists": "Angepasste wiedergabelisten für den gewählten spielstil."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [chanpion] [rolle]",
         "tips": "!b tips [champion]",
         "topplayers": "!b topplayers [champion]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [Kategorie]"
     }
 }

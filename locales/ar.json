@@ -61,7 +61,8 @@
         "navigate": ".التنقل عبر الصفحات باستخدام أقل ردود الفعل ",
         "title": "أوامر البارون",
         "description": ":كل الاوامر المتاحة",
-        "page": "صفحة"
+        "page": "صفحة",
+        "playlists": ".قوائم التشغيل المخصصة لأسلوب اللعب المختار"
     },
     "commandsUsage": {
         "baron": "!b",
@@ -92,6 +93,7 @@
         "synergy": "!b synergy [الدور] [البطل]",
         "tips": "!b tips [البطل]",
         "topplayers": "!b topplayers [البطل]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [الفئة]"
     }
 }

@@ -56,7 +56,8 @@
         "synergy": "Lista os campeões com a maior sinergia com o campeão específicado.",
         "tips": "Dicas para jogar contra e com um campeão.",
         "topplayers": "Jogadores com mais pontos de maestria com um campeão especifico.",
-        "ultimatebravery": "Brincadeira para selecionar aleatóriamente Campeões, habilidades, build, runas, etc..."
+        "ultimatebravery": "Brincadeira para selecionar aleatóriamente Campeões, habilidades, build, runas, etc...",
+        "playlists": "Playlists personalizadas para o tipo de jogo escolhido."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [campeão] [posição/role]",
         "tips": "!b tips [campeão]",
         "topplayers": "!b topplayers [campeão]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [categoria]"
     }
 }

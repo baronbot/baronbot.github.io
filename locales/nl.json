@@ -56,7 +56,8 @@
         "synergy": "Beste champion dat de specifieke champion mee kan samen werkt.",
         "tips": "Tips voor het spelen met en tegen een champion.",
         "topplayers": "Spelers met de meeste mastery punten wereldwijd voor een specifieke champion.",
-        "ultimatebravery": "Willekeurige summoners, build, skill volgorde, enz."
+        "ultimatebravery": "Willekeurige summoners, build, skill volgorde, enz.",
+        "playlists": "Aangepaste afspeellijsten voor de geselecteerde spelstijl."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [champion] [role]",
         "tips": "!b tips [champion]",
         "topplayers": "!b topplayers [champion]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [categorie]"
     }
 }

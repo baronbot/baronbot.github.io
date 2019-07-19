@@ -56,7 +56,8 @@
         "synergy": "Belirttiğin şampiyonla sinerjisi yüksek olan şampiyonları listeler.",
         "tips": "Belirttiğin şampiyona karşı ve onunla nasıl oynayacağına dair tüyolar verir.",
         "topplayers": "Belirttiğin şampiyon için, dünya çapında en çok ustalık puanına sahip olan oyuncuları listeler.",
-        "ultimatebravery": "Enteresan eşya dizilimi, yetenek gelişimi vb. yapan rastgele bir sihirdar gösterir."
+        "ultimatebravery": "Enteresan eşya dizilimi, yetenek gelişimi vb. yapan rastgele bir sihirdar gösterir.",
+        "playlists": "Seçilen oyun stili için özel çalma listeleri."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [şampiyon ismi] [rol]",
         "tips": "!b tips [şampiyon ismi]",
         "topplayers": "!b topplayers [şampiyon ismi]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [kategori]"
     }
 }

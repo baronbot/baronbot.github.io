@@ -56,7 +56,8 @@
         "synergy": "Best champions that the specified champion synergizes with.",
         "tips": "Tips to play with and against a champion.",
         "topplayers": "Players with the most mastery points all over the world on given champion.",
-        "ultimatebravery": "Random summoners, build, skill path, etc."
+        "ultimatebravery": "Random summoners, build, skill path, etc.",
+        "playlists": "Customized playlists for the chosen play style."
     },
     "commandsUsage": {
         "baron": "!b",
@@ -87,6 +88,7 @@
         "synergy": "!b synergy [champion] [role]",
         "tips": "!b tips [champion]",
         "topplayers": "!b topplayers [champion]",
-        "ultimatebravery": "!b ultimatebravery"
+        "ultimatebravery": "!b ultimatebravery",
+        "playlists": "!b playlists [category]"
     }
 }
