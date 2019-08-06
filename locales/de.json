@@ -85,7 +85,7 @@
         "skins": "!b skins [champion/skin Name]",
         "status": "!b status",
         "streams": "!b streams [champion]",
-        "synergy": "!b synergy [chanpion] [rolle]",
+        "synergy": "!b synergy [champion] [rolle]",
         "tips": "!b tips [champion]",
         "topplayers": "!b topplayers [champion]",
         "ultimatebravery": "!b ultimatebravery",
