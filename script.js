@@ -4,7 +4,7 @@ $(document).ready(function () {
     setLanguage("en");
     const ps = new PerfectScrollbar(".dropdown-content");
 
-    $.getJSON("https://api.jsonbin.io/b/5cb7b246961e5c5776978f2c/latest", function (result) {
+    $.getJSON("https://api.jsonbin.io/b/5e727868c4a5cb162866981e/latest", function (result) {
         //Insert stats.
         $(".statsServersNum").text(numberWithCommas(result.stats.s));
         $(".statsUsersNum").text(numberWithCommas(result.stats.u));
