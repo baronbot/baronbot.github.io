@@ -4,7 +4,10 @@ $(document).ready(function () {
     setLanguage("en");
     const ps = new PerfectScrollbar(".dropdown-content");
 
-    $.getJSON("https://api.jsonbin.io/b/5e727868c4a5cb162866981e/latest", function (result) {
+    $.getJSON("https://api.github.com/gists/efcebfc278a8bffbd5bca68d3d2428ce", function (result) {
+        if(!result || !result.files || !result.files["baron-stats.json"]) return;
+        result = JSON.parse(result.files["baron-stats.json"].content);
+        
         //Insert stats.
         $(".statsServersNum").text(numberWithCommas(result.stats.s));
         $(".statsUsersNum").text(numberWithCommas(result.stats.u));
