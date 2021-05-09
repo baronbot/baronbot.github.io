@@ -25,7 +25,7 @@
         "description": "Eğer geliştiriciye ulaşmak, hata bildirmek, özellik önermek ya da yalnızca Teemo'nun oyundan silinmesi gerektiğine dair konuşmak istersen, sadece <a href='https://discord.gg/twCbaFM' class='serverA'>botun resmi sunucusuna katılr</a> veya Phyxsius#1238 ekle."
     },
     "footer": {
-        "text": "Tüm hakları saklıdır. İnternet sitesi ve bot <span>❤</span> ile Phyxsius tarafından yapıldı.<br>Baron Bot, <a href='https://playersrepublik.com/'>Players Republik</a> tarafından destekleniyor.<br>Avatar <a href='http://tmiracle.deviantart.com/'>TMiracle</a> tarafından yapıldı."
+        "text": "Tüm hakları saklıdır. İnternet sitesi ve bot <span>❤</span> ile Phyxsius tarafından yapıldı.<br>Avatar <a href='http://tmiracle.deviantart.com/'>TMiracle</a> tarafından yapıldı."
     },
     "commandsDesc": {
         "baron": "Genel bilgiler ve istatistikler.",

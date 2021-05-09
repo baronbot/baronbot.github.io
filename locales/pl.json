@@ -25,7 +25,7 @@
         "description": "Jeśli chcesz skontaktować się z programistą, zgłosić błąd, zaproponować funkcję, lub po prostu porozmawiać o tym, w jaki sposób Teemo powinien być usunięty z gry, po prostu dołącz do <a href='https://discord.gg/twCbaFM' class='serverA'>serwera bota</a>, lub dodaj Phyxsius#1238."
     },
     "footer": {
-        "text": "Wszelkie prawa zastrzeżone. Strona i bot zostały utworzone z <span>❤</span> przez Phyxsius.<br>Baron Bot jest powiązany z <a href='https://playersrepublik.com/'>Players Republik</a>.<br>Avatar stworzony przez <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
+        "text": "Wszelkie prawa zastrzeżone. Strona i bot zostały utworzone z <span>❤</span> przez Phyxsius.<br>Avatar stworzony przez <a href='http://tmiracle.deviantart.com/'>TMiracle</a>."
     },
     "commandsDesc": {
         "baron": "Ogólne informacje i statystki.",

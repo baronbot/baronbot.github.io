@@ -25,7 +25,7 @@
         "description": "개발자와 연락하고 싶거나, 버그를 제보하고 싶거나, 건의 사항이 있다거나, 혹은 왜 티모를 확 찢어야 하는지 등에 관한 이야기를 나누고 싶다면, <a href='' class='serverA'>봇 서버에 가입하거나</a> Phyxsius#1238를 친구 추가하세요."
     },
     "footer": {
-        "text": "무단 전재 및 재배포 금지. 웹사이트와 봇은 Phyxsius가 <span>❤</span>으로 만들었습니다.<br>Baron은 <a href='https://playersrepublik.com/'>Players Republik</a>가 제공하고 있습니다.<br>아바타는 <a href='http://tmiracle.deviantart.com/'>TMiracle</a>이 제작하였습니다."
+        "text": "무단 전재 및 재배포 금지. 웹사이트와 봇은 Phyxsius가 <span>❤</span>으로 만들었습니다.<br>아바타는 <a href='http://tmiracle.deviantart.com/'>TMiracle</a>이 제작하였습니다."
     },
     "commandsDesc": {
         "baron": "봇에 대한 정보와 통계",
