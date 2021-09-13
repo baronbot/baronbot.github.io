@@ -108,7 +108,7 @@ $(document).ready(function () {
     });
 
     $("table a").on("click", function () {
-        const command = $(this).text();
+        const command = $(this).parent().siblings().first().text();
         mixpanel.track("command_example", { command });
     });
 });
