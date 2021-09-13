@@ -93,6 +93,7 @@ $(document).ready(function () {
         $(".dropbtn-txt").text(lang);
 
         setLanguage(locale);
+        mixpanel.track("language", { locale });
     });
 
     //Translators Modal.
@@ -104,6 +105,11 @@ $(document).ready(function () {
 
     $(".btn-close").click(function () {
         $("body").css("overflow", "visible");
+    });
+
+    $("table a").on("click", function () {
+        const command = $(this).text();
+        mixpanel.track("command_example", { command });
     });
 });
 
