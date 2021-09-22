@@ -192,9 +192,10 @@ html, body {
 
 .firstDiv-Center {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 #commands {
@@ -544,6 +545,10 @@ hr {
 
     footer>p {
         font-size: 12px;
+    }
+
+    .giveaway-banner {
+        width: 100% !important;
     }
 }
 
